@@ -1,0 +1,1202 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>헌법재판소 연구자료 지원서비스</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<script src="../js/jquery-1.9.1.min.js"></script>
+	<script src="../js/uikit.min.js"></script>
+	<script src="../js/layout.js"></script>
+	<script src="../js/script.js"></script>
+</head>
+
+<body>
+	<div class="accessibilityTab">
+		<a href="#main">본문바로가기</a>
+		<a href="#menu">주메뉴 바로가기</a>
+	</div>
+	<div id="wrap">
+		<nav class="uk-navbar-container top-nav uk-navbar">
+			<div class="uk-navbar-left">
+				<ul class="uk-navbar-nav">
+					<li> <a href="#none">종합법률정보</a> </li>
+					<li> <a href="#none">국가법령센터</a> </li>
+					<li> <a href="#none">의안정보시스템</a> </li>
+					<li>
+						<a href="#"><span class="btn more">더보기 +</span></a>
+						<div class="uk-navbar-dropdown"
+							uk-drop="boundary: !.uk-navbar; stretch: x; flip: false; mode:click">
+							<div class="uk-navbar-dropdown-grid">
+								<div>
+									<h2>국내</h2>
+									<h3>국가기관</h3>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">국가회의록</a></li>
+										<li><a href="#">의안정보</a></li>
+										<li><a href="#">입법예고</a></li>
+										<li><a href="#">열린국회정보</a></li>
+										<li><a href="#">국회입법조사처</a></li>
+										<li><a href="#">국회법률도서관</a></li>
+										<li><a href="#">국회전자도서관</a></li>
+										<li><a href="#">국회의원정책자료</a></li>
+										<li><a href="#">정부부처조직도</a></li>
+										<li><a href="#">정부조직관리정보시스템</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">정책연구자료관리시스템</a></li>
+										<li><a href="#">국가통계포털</a></li>
+										<li><a href="#">국토정보플랫폼</a></li>
+										<li><a href="#">국립중앙도서관학술DB</a></li>
+										<li><a href="#">기초학문자료센터</a></li>
+										<li><a href="#">헌법재판연구원</a></li>
+										<li><a href="#">사법정책연구원</a></li>
+										<li><a href="#">대한민국영문법령</a></li>
+										<li><a href="#">양자조약</a></li>
+										<li><a href="#">다자조약</a></li>
+										<li><a href="#">법원판결서</a></li>
+										<li><a href="#">엘박스</a></li>
+										<li><a href="#">로앤비</a></li>
+									</ul>
+								</div>
+								<div>
+									<h3>국내문헌</h3>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">교보스콜라</a></li>
+										<li><a href="#">구글스콜라</a></li>
+										<li><a href="#">리스</a></li>
+										<li><a href="#">키스</a></li>
+										<li><a href="#">KCI</a></li>
+										<li><a href="#">DBPIA</a></li>
+										<li><a href="#">교보스킬라</a></li>
+										<li><a href="#">E-article</a></li>
+										<li><a href="#">코라이스킬라</a></li>
+									</ul>
+									<h3 class="mt15">조세</h3>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">삼일아이</a></li>
+										<li><a href="#">국세법령정보시스템</a></li>
+										<li><a href="#">한국조세재정연구원</a></li>
+									</ul>
+								</div>
+								<div>
+									<h2>해외</h2>
+									<h3>국제기구 등</h3>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">UN Treaty Depositary</a></li>
+										<li><a href="#">베니스위원회</a></li>
+										<li><a href="#">CODICES</a></li>
+									</ul>
+									<h3 class="mt15">외국기관</h3>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">각종 국가정보 CIA</a></li>
+										<li><a href="#">미연방의회 외국법 리서치가이드</a></li>
+									</ul>
+									<h3 class="mt15">NGO</h3>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">World Legal Information Institute</a></li>
+										<li><a href="#">Constitute Project</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- header -->
+		<header class="header">
+			<h1 class="header-logo">
+				<a href="#" title="헌법재판소 연구자료 지원서비스 메인으로">
+					<img src="../images/logo.png" alt="헌법재판소 연구자료 지원서비스 ">
+				</a>
+			</h1>
+			<nav class="gnb-wrap">
+				<ul id="menu">
+					<li> <a href="001_data_search_list.html" class="current">자료수집설정</a> </li>
+					<li> <a href="100_collect_result.html">수집결과</a> </li>
+					<li> <a href="200_locker_list.html">보관함</a> </li>
+					<li> <a href="300_share_data.html">공유하기</a> </li>
+					<li class="last"> <a href="400_law_list.html"><span>법률개정사항</span></a> </li>
+				</ul>
+			</nav>
+			<div class="header-btn">
+				<p>
+					전속1부 헌법연구관
+					<b>홍길동</b>
+				</p>
+				<a href="#" class="logout" title="로그아웃">로그아웃</a>
+
+				<div class="sitemap-wrap">
+					<div class="sitemap-layout">
+						<ul class="gnb">
+							<li> <a href="001_data_search_list.html" class="current">자료수집설정</a> </li>
+							<li> <a href="100_collect_result.html">수집결과</a> </li>
+							<li> <a href="200_locker_list.html">보관함</a> </li>
+							<li> <a href="300_share_data.html">공유하기</a> </li>
+							<li> <a href="400_law_list.html">법률개정사항</a> </li>
+						</ul>
+					</div>
+				</div>
+				<a href="#" class="sitemap" title="사이트맵 열기">
+					<span>사이트맵 열기</span>
+				</a>
+			</div>
+		</header>
+
+		<!-- content -->
+		<div id="main">
+			<div class="path">
+				<nav class="path-nav">
+					<a href="#" class="navi_home">HOME</a> &gt; <a href="#">자료수집설정</a>
+					&gt; <a href="#" class="navi_ov">검색설정</a>
+				</nav>
+			</div>
+
+			<div id="container">
+				<h1 id="tit_cont">자료수집설정</h1>
+				<ul class="tab-ul type1 col2 mt50">
+					<li class="on"><a href="001_data_search_list.html"><span>검색조건</span></a></li>
+					<li><a href="010_execution_history.html"><span>실행이력</span></a></li>
+				</ul>
+
+				<div class="board-search mb10">
+					<form class="board-search__date" method="get" action="">
+						<p class="d-flex">
+							<b class="mr10">연도</b>
+							<input type="text" class="input" title="시작연도">
+							<span>-</span>
+							<input type="text" class="input" title="마지막연도">
+						</p>
+						<input type="text" name="searchKeyword" placeholder="검색어를 입력해주세요." value="" title="검색어 입력"
+							class="search">
+						<button type="button" class="submit" title="검색하기"
+							uk-toggle="target: #modal-colle-number">검색하기</button>
+						<div class="tooltip">
+							<a href="#none" class="question btn bg_color6">도움말</a>
+							<p class="tooltiptext">
+								<strong>검색 도움말</strong>
+								<b>[검색방법]</b>
+								<span>연산자를 이용하여 최대 5개까지 키워드를 조합하여 검색할 수 있습니다.</span>
+								<span>의미있는 데이터를 수집하기 위해 키워드를 조합하여 사용해 주십시요.</span>
+								<b>[연산자]</b>
+								<span>‘&’는 AND검색 <br> - 헌법&재판 : 헌법과 재판이 동시에 존재하는 데이터</span>
+								<span>‘|’ 는 OR검색<br> - 헌법|재판 : 헌법 또는 재판 둘중 하나 이상 존재하는 데이터</span>
+							</p>
+						</div>
+
+					</form>
+					<p class="check"><i></i>검색연산자(&, | )를 이용해 키워드 최대 5개까지 조합가능</p>
+				</div>
+
+				<!-- s:search target setting -->
+				<div class="main-db-table-wrap">
+					<div id="main_db_table_groups" class="main-db-table-groups">검색대상설정
+						<select id="main_group_mode" class="select small2 ml30" title="분류">
+							<option value="0">전체</option>
+						</select>
+						<button class="btn small2 outline">전체선택</button>
+						<button class="btn small2 outline">전체해제</button>
+					</div>
+					<div id="main_db_table" class="main-db-table">
+						<div class="groups-wrap">
+							<ul>
+								<li>
+									<input type="checkbox" value="24" title="헌법재판소도서관 &amp; 헌법재판정보">
+									<a href="javascript:void(0);">헌법재판소도서관 &amp;
+										헌법재판정보</a>
+								</li>
+								<li>
+									<input type="checkbox" value="23" title="유관 기관">
+									<a href="javascript:void(0);">유관
+										기관</a>
+								</li>
+								<li>
+									<input type="checkbox" value="22" title="국내 Web DB">
+									<a href="javascript:void(0);">국내 Web DB</a>
+								</li>
+								<li>
+									<input type="checkbox" value="25" title="Westlaw (영미)">
+									<a href="javascript:void(0);">Westlaw (영미)</a>
+								</li>
+								<li><input type="checkbox" value="27" title="HeinOnline (영미)">
+									<a href="javascript:void(0);">HeinOnline (영미)</a>
+								</li>
+								<li>
+									<input type="checkbox" value="28" title="Beck-Online (독일)">
+									<a href="javascript:void(0);">Beck-Online (독일)</a>
+								</li>
+								<li>
+									<input type="checkbox" value="29" title="국외 Web DB">
+									<a href="javascript:void(0);">국외 Web DB</a>
+								</li>
+							</ul>
+						</div>
+						<div class="group-list-wrap">
+							<div class="group-list">
+								<div class="group-wrap">
+									<div class="group-title checked" title="전체선택/전체해제" data-subcategory-id="24">
+										<input type="checkbox" value="24" title="헌법재판소도서관 &amp; 헌법재판정보"> 헌법재판소도서관 &amp;
+										헌법재판정보
+									</div>
+									<ul>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="67451" checked="checked"
+												title="헌법재판소도서관 (단행본)">
+											<a href="http://152.99.78.48:8080/#/" target="_blank"
+												title="헌법재판소도서관 소장자료 (국내외 단행본)">헌법재판소도서관 (단행본)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="67461" checked="checked"
+												title="헌법재판소도서관 (학술지논문)">
+											<a href="http://152.99.78.48:8080/#/" target="_blank"
+												title="헌법재판소도서관 소장자료 (국내외 학술지논문 정보)">헌법재판소도서관 (학술지논문)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="67471" checked="checked"
+												title="헌법재판소도서관 (학위논문)">
+											<a href="http://152.99.78.48:8080/#/" target="_blank"
+												title="헌법재판소도서관 소장자료 (학위논문)">헌법재판소도서관 (학위논문)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65121" checked="checked"
+												title="헌법재판정보 (판례)">
+											<a href="http://search.ccourt.go.kr/ths/pt/selectThsPt0101List.do"
+												target="_blank" title="헌법재판정보 - 판례">헌법재판정보 (판례)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65131" checked="checked"
+												title="헌법재판정보 (요지집)">
+											<a href="http://search.ccourt.go.kr/ths/pt/selectThsPt0101List.do"
+												target="_blank" title="헌법재판정보 - 판례요지집">헌법재판정보 (요지집)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65141" checked="checked"
+												title="헌법재판정보 (발간문헌)">
+											<a href="http://search.ccourt.go.kr/ths/pt/selectThsPt0101List.do"
+												target="_blank" title="헌법재판정보 - 발간문헌">헌법재판정보 (발간문헌)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65151" checked="checked"
+												title="헌법재판정보 (영문판례)">
+											<a href="http://search.ccourt.go.kr/ths/pt/selectThsPt0101List.do"
+												target="_blank" title="헌법재판정보 - 영문판례">헌법재판정보 (영문판례)</a>
+										</li>
+									</ul>
+								</div>
+								<div class="group-wrap">
+									<div class="group-title" title="전체선택/전체해제" data-subcategory-id="23">
+										<input type="checkbox" value="23" title="유관 기관"> 유관 기관
+									</div>
+									<ul>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="32301" checked="checked"
+												title="국가법령정보센터(현행법령)">
+											<a href="http://www.law.go.kr/main.html" target="_blank"
+												title="국가법령정보센터(현행법령)">국가법령정보센터(현행법령)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65881" title="국가법령정보센터(연혁법령)">
+											<a href="http://www.law.go.kr/main.html" target="_blank"
+												title="국가법령정보센터(연혁법령)">국가법령정보센터(연혁법령)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65891" title="국가법령정보센터(영문법령)">
+											<a href="http://www.law.go.kr/main.html" target="_blank"
+												title="국가법령정보센터(영문법령)">국가법령정보센터(영문법령)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="67651"
+												title="국가법령정보센터(법령/자치법규)">
+											<a href="http://www.law.go.kr/main.html" target="_blank"
+												title="국가법령정보센터(법령/자치법규)">국가법령정보센터(법령/자치법규)</a>
+										</li>
+										<li><input type="checkbox" name="dbnum[]" value="65901" checked="checked"
+												title="국가법령정보센터(행정규칙)">
+											<a href="http://www.law.go.kr/main.html" target="_blank"
+												title="국가법령정보센터(행정규칙)">국가법령정보센터(행정규칙)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65871" title="국가법령정보센터(자치법규)">
+											<a href=" http://www.law.go.kr/main.html" target="_blank"
+												title="국가법령정보센터(자치법규)">국가법령정보센터(자치법규)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65921" title="국가법령정보센터(별표서식)">
+											<a href="http://www.law.go.kr/main.html" target="_blank"
+												title="국가법령정보센터(별표서식)">국가법령정보센터(별표서식)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65931" title="국가법령정보센터(조약)">
+											<a href="http://www.law.go.kr/main.html" target="_blank"
+												title="국가법령정보센터(조약)">국가법령정보센터(조약)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="2311" checked="checked"
+												title="RISS (학위논문)">
+											<a href="http://libsteps.ccourt.go.kr/EngineGateway/refererlink.lsm?link=http://www.riss.kr/OrganLogin.do"
+												target="_blank" title="RISS (학위논문) 국내 석박사 학위논문">RISS (학위논문)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="2291" checked="checked"
+												title="RISS (국내 학술지논문)">
+											<a href="http://libsteps.ccourt.go.kr/EngineGateway/refererlink.lsm?link=http://www.riss.kr/OrganLogin.do"
+												target="_blank" title="RISS (국내 학술지논문)">RISS (국내 학술지논문)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="2301" title="RISS (해외 학술지논문)">
+											<a href="http://libsteps.ccourt.go.kr/EngineGateway/refererlink.lsm?link=http://www.riss.kr/OrganLogin.do"
+												target="_blank" title="KERIS (해외 학술지논문)">RISS (해외 학술지논문)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="2321" title="RISS (단행본)">
+											<a href="http://libsteps.ccourt.go.kr/EngineGateway/refererlink.lsm?link=http://www.riss.kr/OrganLogin.do"
+												target="_blank" title="RISS (단행본)">RISS
+												(단행본)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="2331" title="RISS (학술지)">
+											<a href="http://libsteps.ccourt.go.kr/EngineGateway/refererlink.lsm?link=http://www.riss.kr/OrganLogin.do"
+												target="_blank" title="RISS (학술지) 학술지 등 연속간행물">RISS (학술지)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="15051" checked="checked"
+												title="종합법률정보(판례)">
+											<a href="http://glaw.scourt.go.kr" target="_blank"
+												title="종합법률정보(판례)">종합법률정보(판례)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="41341" checked="checked"
+												title="종합법률정보(법령)">
+											<a href="http://glaw.scourt.go.kr/wsjo/intesrch/sjo022.do" target="_blank"
+												title="종합법률정보서비스(법령)">종합법률정보(법령)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65941" checked="checked"
+												title="종합법률정보(문헌)">
+											<a href="http://glaw.scourt.go.kr" target="_blank"
+												title="종합법률정보(문헌)">종합법률정보(문헌)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65951" checked="checked"
+												title="종합법률정보(규칙/예규/선례)">
+											<a href="http://glaw.scourt.go.kr" target="_blank"
+												title="종합법률정보(규칙/예규/선례)">종합법률정보(규칙/예규/선례)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="19161" title="법원도서관">
+											<a href="https://library.scourt.go.kr/main.jsp" target="_blank"
+												title="법원도서관">법원도서관</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="37631" checked="checked"
+												title="국회도서관"> <a href="http://dl.nanet.go.kr/" target="_blank"
+												title="국회도서관">국회도서관</a></li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="59081" title="국회법률정보시스템"> <a
+												href="http://likms.assembly.go.kr/law/jsp/law/Main.jsp" target="_blank"
+												title="국회법률정보시스템">국회법률정보시스템</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="98571" checked="checked"
+												title="국회도서관(법률쟁점DB)">
+											<a href="https://law.nanet.go.kr/" target="_blank"
+												title="국회도서관(법률쟁점DB)">국회도서관(법률쟁점DB)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="98681" checked="checked"
+												title="국회도서관(외국법률번역DB)">
+											<a href="https://law.nanet.go.kr/" target="_blank"
+												title="">국회도서관(외국법률번역DB)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="98671" checked="checked"
+												title="국회도서관(최신외국입법정보)">
+											<a href="https://law.nanet.go.kr/" target="_blank"
+												title="">국회도서관(최신외국입법정보)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="98581" checked="checked"
+												title="국회도서관(주요국 최신법령)">
+											<a href="https://law.nanet.go.kr/" target="_blank"
+												title="국회도서관(주요국 최신법령)">국회도서관(주요국 최신법령)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="17191" title="법제처(영문법령)">
+											<a href="http://elaw.klri.re.kr/" target="_blank"
+												title="법제처(영문법령)">법제처(영문법령)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65961" checked="checked"
+												title="통일법제 데이터베이스">
+											<a href="http://www.unilaw.go.kr/search/totalsearch.do" target="_blank"
+												title="통일법제 데이터베이스">통일법제 데이터베이스</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="5861" title="정책연구검색(prism)"> <a
+												href="https://www.prism.go.kr/homepage/" target="_blank"
+												title="정책연구검색(prism)">정책연구검색(prism)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="2611" checked="checked"
+												title="한국법제연구원"> <a href="http://www.klri.re.kr/" target="_blank"
+												title="한국법제연구원">한국법제연구원</a></li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="1531" title="국가정책연구포털"> <a
+												href="www.nkis.re.kr" target="_blank" title="국가정책연구포털">국가정책연구포털</a></li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="59331" title="국립중앙도서관">
+											<a href="http://www.nl.go.kr/" target="_blank"
+												title="국립중앙도서관은 국가를 대표하는 국립도서관으로서 위상을 가진 국가문헌정보 교류의 중추기관으로 국가대표도서관의 역할을 수행하고 있다.">국립중앙도서관</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="17041" title="전자관보">
+											<a href="http://www.mois.go.kr/frt/sub/a05/gwanboMain/screen.do"
+												target="_blank" title="전자관보">전자관보</a>
+										</li>
+									</ul>
+								</div>
+								<div class="group-wrap">
+									<div class="group-title" title="전체선택/전체해제" data-subcategory-id="22">
+										<input type="checkbox" value="22" title="국내 Web DB"> 국내 Web DB
+									</div>
+									<ul>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="78331" checked="checked"
+												title="KISS(한국학술정보)">
+											<a href="https://kiss.kstudy.com/" target="_blank"
+												title="KISS(한국학술정보)">KISS(한국학술정보)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="54561" checked="checked"
+												title="DBPIA">
+											<a href="https://www.dbpia.co.kr" target="_blank"
+												title="누리미디어가 제공하는 학술 전분야 전자저널 1,968종, 논문 1,785,447종, 전자책 15,074종 등의 원문 정보를 제공합니다.">DBPIA</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="25831" checked="checked"
+												title="스콜라(학지사,교보문고)">
+											<a href="https://scholar.kyobobook.co.kr" target="_blank"
+												title="스콜라(학지사,교보문고)">스콜라(학지사,교보문고)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="12561" checked="checked"
+												title="e-article(학술교육원)">
+											<a href="http://www.earticle.net/" target="_blank"
+												title="E-Article에서는 국내 500여 학회 및 학술단체에서 발행되고 있는 800여종의 저널에 대한 창간호부터 현재까지의 관련 정보를 제공합니다.">e-article(학술교육원)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="3241" checked="checked"
+												title="로앤비 (학회논문)">
+											<a href="http://ccourt.lawnb.com/" target="_blank"
+												title="로앤비 (학회논문) 국내 학술지논문 자료">로앤비 (학회논문)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="3231" title="로앤비 (법령)">
+											<a href="http://ccourt.lawnb.com/" target="_blank" title="로앤비 (법령)">로앤비
+												(법령)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="3221" title="로앤비 (판례)">
+											<a href="http://ccourt.lawnb.com/" target="_blank" title="로앤비 (판례)">로앤비
+												(판례)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="11421" title="로앤비 (행정자료)">
+											<a href="http://ccourt.lawnb.com/" target="_blank" title="로앤비 (행정자료)">로앤비
+												(행정자료)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="58751" checked="checked"
+												title="코리아스칼라">
+											<a href="http://db.koreascholar.com/" target="_blank"
+												title="국내 229개 기관 간행물 원문 제공">코리아스칼라</a>
+										</li>
+										<li>
+											<img src="../images/link.png" alt="Link DB">
+											<a href="http://www.samili.com/B2B/ccourt.asp" target="_blank"
+												title="삼일 아이닷컴">삼일 아이닷컴 (통합검색 지원
+												불가)</a>
+										</li>
+									</ul>
+								</div>
+								<div class="group-wrap">
+									<div class="group-title" title="전체선택/전체해제" data-subcategory-id="25">
+										<input type="checkbox" value="25" title="Westlaw (영미)"> Westlaw (영미)
+									</div>
+									<ul>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="66121" title="WestLaw (All)">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank" title="WestLawNext">WestLaw (All)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65311" checked="checked"
+												title="Westlaw_Cases">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank" title="WestLawNext(Cases)">Westlaw_Cases</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65321"
+												title="Trial Court Orders">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank" title="WestLawNext(Trial Court Orders)">Trial Court
+												Orders</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65331"
+												title="Statutes &amp; Court Rules">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank" title="WestLawNext(Statutes &amp; Court Rules)">Statutes
+												&amp; Court Rules</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65341" title="Regulations">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank" title="WestLawNext(Regulations)">Regulations</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65351"
+												title="Administrative Decisions &amp; Guidance">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank"
+												title="WestLawNext(Administrative Decisions&amp;Guidan)">Administrative
+												Decisions &amp;
+												Guidance</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65361" checked="checked"
+												title="Westlaw_Secondary Sources">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank" title="Secondary Sources">Westlaw_Secondary Sources</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65371" title="Forms">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank" title="WestLawNext(Forms)">Forms</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65381" title="Briefs">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank" title="WestLawNext(Briefs)">Briefs</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65391"
+												title="Trial Court Documents">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank" title="Trial Court Documents">Trial Court Documents</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65401"
+												title="Expert Materials">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank" title="WestLawNext(Expert Materials)">Expert
+												Materials</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65411"
+												title="Jury Verdicts &amp; Settlements">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank"
+												title="WestLawNext(Jury Verdicts &amp; Settlements)">Jury Verdicts &amp;
+												Settlements</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65421"
+												title="Proposed &amp; Enacted Legislation">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank"
+												title="WestLawNext(Proposed &amp; Enacted Legislation)">Proposed &amp;
+												Enacted Legislation</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65431"
+												title="Proposed &amp; Adopted Regulations">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank"
+												title="WestLawNext(Proposed &amp; Adopted Regulations)">Proposed &amp;
+												Adopted Regulations</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65441"
+												title="Arbitration Materials">
+											<a href="http://www.westlaw.com/search/home.html?rs=IWLN1.0&amp;vr=3.0&amp;sp=conck-2000"
+												target="_blank" title="WestLawNext(Arbitration Materials)">Arbitration
+												Materials</a>
+										</li>
+									</ul>
+								</div>
+								<div class="group-wrap">
+									<div class="group-title" title="전체선택/전체해제" data-subcategory-id="27">
+										<input type="checkbox" value="27" title="HeinOnline (영미)"> HeinOnline (영미)
+									</div>
+									<ul>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="12781"
+												title="HeinOnline (All)">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline">HeinOnline (All)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="3141" checked="checked"
+												title="Hein_Law Journal Library">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(Law Journal Library)">Hein_Law Journal Library</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65551"
+												title="American Association of Law Libraries (AALL)">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="American Association of Law Libraries (AALL) ">American
+												Association of Law Libraries (AALL)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65561"
+												title="Association of American Law Schools (AALS)">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="Association of American Law Schools (AALS) ">Association of
+												American Law Schools (AALS)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65571"
+												title="Canada Supreme Court Reports">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(Canada Supreme Court Reports)">Canada Supreme Court
+												Reports</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65581"
+												title="Code of Federal Regulations">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(Code of Federal Regulations)">Code of Federal
+												Regulations</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65591"
+												title="Early American Case Law">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(Early American Case Law) ">Early American Case Law</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65601" title="English Reports">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(English Reports)">English Reports</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65611"
+												title="European Centre for Minority Issues">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(European Centre for Minority Issues)">European Centre
+												for Minority
+												Issues</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65621"
+												title="Federal Register Library">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(Federal Register Library)">Federal Register
+												Library</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65631" title="Legal Classics">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(Legal Classics) ">Legal Classics</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65641"
+												title="Manual of Patent Examining Procedure">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="Manual of Patent Examining Procedure ">Manual of Patent Examining
+												Procedure</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65651" title="Pentagon Papers">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(Pentagon Papers)">Pentagon Papers</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65661"
+												title="Revised Statutes of Canada">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(Revised Statutes of Canada)">Revised Statutes of
+												Canada</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65671"
+												title="Statutes of the Realm">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(Statutes of the Realm)">Statutes of the Realm</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65681"
+												title="Trends in Law Library Management and Technology">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="Trends in Law Library Management and Technology ">Trends in Law
+												Library Management and Technology</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65691"
+												title="U.S. Attorney General &amp; Department of Justice Collection">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="U.S. Attorney General &amp; Department of Justice Collection ">U.S.
+												Attorney General &amp; Department of Justice Collection</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65701" title="U.S. Code">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(U.S. Code)">U.S.
+												Code</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65711"
+												title="U.S. Federal Legislative History Library">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(U.S. Federal Legislative History)">U.S. Federal
+												Legislative History
+												Library</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65721"
+												title="U.S. Presidential Library">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(U.S. Presidential Library)">U.S. Presidential
+												Library</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65731"
+												title="U.S. Statutes at Large">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(U.S. Statutes at Large)">U.S. Statutes at Large</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65741"
+												title="U.S. Supreme Court Library">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(U.S. Supreme Court Library)">U.S. Supreme Court
+												Library</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65751"
+												title="U.S. Treaties and Agreements Library">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="U.S. Treaties and Agreements Library ">U.S. Treaties and
+												Agreements Library</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65761"
+												title="World Constitutions Illustrated">
+											<a href="http://heinonline.org/HOL/Welcome" target="_blank"
+												title="HeinOnline(World Constitutions Illustrated)">World Constitutions
+												Illustrated</a>
+										</li>
+									</ul>
+								</div>
+								<div class="group-wrap">
+									<div class="group-title" title="전체선택/전체해제" data-subcategory-id="28">
+										<input type="checkbox" value="28" title="Beck-Online (독일)"> Beck-Online (독일)
+									</div>
+									<ul>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="5001" checked="checked"
+												title="Beck-online (All)">
+											<a href="http://beck-online.beck.de/" target="_blank"
+												title="Beck-online">Beck-online (All)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65771" title="Rechtsprechung">
+											<a href="http://beck-online.beck.de/" target="_blank"
+												title="BeckOnline(Rechtsprechung)">Rechtsprechung</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65781"
+												title="Kommentare, Handbücher">
+											<a href="http://beck-online.beck.de/" target="_blank"
+												title="BeckOnline(Kommentare, Handbücher)">Kommentare, Handbücher</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65791"
+												title="Rechtsvorschriften">
+											<a href="http://beck-online.beck.de/" target="_blank"
+												title="BeckOnline(Rechtsvorschriften)">Rechtsvorschriften</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65801" title="Aufsätze">
+											<a href="http://beck-online.beck.de/" target="_blank"
+												title="BeckOnline(Aufsätze)">Aufsätze</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65811"
+												title="Verwaltungsvorschriften">
+											<a href="http://beck-online.beck.de/" target="_blank"
+												title="BeckOnline(Verwaltungsvorschriften)">Verwaltungsvorschriften</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65821" title="Formulare">
+											<a href="http://beck-online.beck.de/" target="_blank"
+												title="BeckOnline(Formulare)">Formulare</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65831"
+												title="Verträge, sonst. Rechtsquellen">
+											<a href="http://beck-online.beck.de/" target="_blank"
+												title="BeckOnline(Verträge, sonst. Rechtsquellen)">Verträge, sonst.
+												Rechtsquellen</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65841" title="Lexika">
+											<a href="http://beck-online.beck.de/" target="_blank"
+												title="BeckOnline(Lexika)">Lexika</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65851"
+												title="Meldungen, Anmerkungen">
+											<a href="http://beck-online.beck.de/" target="_blank"
+												title="BeckOnline(Meldungen, Anmerkungen)">Meldungen, Anmerkungen</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65861" title="Wörterbücher">
+											<a href="http://beck-online.beck.de/" target="_blank"
+												title="BeckOnline(Wörterbücher)">Wörterbücher</a>
+										</li>
+									</ul>
+								</div>
+								<div class="group-wrap">
+									<div class="group-title" title="전체선택/전체해제" data-subcategory-id="29">
+										<input type="checkbox" value="29" title="국외 Web DB"> 국외 Web DB
+									</div>
+									<ul>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="5061" checked="checked"
+												title="Juris (독일)">
+											<a href="http://www.juris.de/" target="_blank"
+												title="Juris 독일 연방헌법재판소, 연방재판소, 그 외 법원들의 판결문과 증빙 자료 및 공법, 사회법, 노동법, 국제법 등 포괄적인 법률분야의 정보를 제공하는 독일 법률 데이터베이스">Juris
+												(독일)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="14681" title="CiNii (일본)">
+											<a href="http://ci.nii.ac.jp/" target="_blank"
+												title="CiNii 일본 학술논문 데이터베이스">CiNii (일본)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="1401" checked="checked"
+												title="JSTOR (영미)">
+											<a href="http://www.jstor.org" target="_blank"
+												title="2,000여 종의 해외 학술 WEB-DB">JSTOR
+												(영미)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="73621" checked="checked"
+												title="Global Constitutionalism (영미)">
+											<a href="https://www.cambridge.org/core/journals/global-constitutionalism/latest-issue"
+												target="_blank" title="Cambridge University 국제헌법 전자저널">Global
+												Constitutionalism (영미)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="65211" title="Dalloz (프랑스)">
+											<a href="http://www.dalloz.fr/" target="_blank"
+												title="Dalloz 프랑스 법률정보 데이터베이스 ">Dalloz (프랑스)</a>
+										</li>
+										<li>
+											<input type="checkbox" name="dbnum[]" value="40171" title="CNKI (중국)">
+											<a href="http://en.oversea.cnki.net/law/default.aspx" target="_blank"
+												title="CNKI 중국 법률, 판례, 저널 및 논문 정보 제공">CNKI (중국)</a>
+										</li>
+										<li>
+											<img src="../images/link.png" alt="Link DB">
+											<a href="http://ipos.lawlibrary.jp/" target="_blank"
+												title="TKC-Law Library ">TKC-Law Library (일본)</a>
+										</li>
+										<li>
+											<img src="../images/link.png" alt="Link DB">
+											<a href="https://houko2.com/" target="_blank" title="法庫 일본 법령 데이터베이스">法庫
+												(일본)</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- e:search target setting -->
+			</div>
+		</div>
+
+		<!-- footer -->
+		<div id="footer">
+			<div class="inner">
+				<span class="footerLogo"><img src="../images/img_footerLogo.png" alt="헌법재판소 로고"></span>
+				<ul class="footerLink">
+					<li class="txtBrown"><a href="#">개인정보 처리방침</a></li>
+					<li><a href="#">개인정보 보호</a></li>
+				</ul>
+				<div class="relatedSite">
+					<a href="#" class="siteOpen">관련사이트</a>
+					<ul>
+						<li><a href="https://ecourt.ccourt.go.kr/" target="_blank" title="새창열림">전자헌법재판센터</a></li>
+						<li><a href="http://library.ccourt.go.kr/" target="_blank" title="새창열림">헌법재판소도서관</a></li>
+						<li><a href="http://kids.ccourt.go.kr/" target="_blank" title="새창열림">어린이헌법재판소</a></li>
+						<li><a href="http://ri.ccourt.go.kr" target="_blank" title="새창열림">헌법재판연구원</a></li>
+						<li><a href="http://history.ccourt.go.kr/" target="_blank" title="새창열림">사이버역사관</a></li>
+						<li><a href="http://recruit.ccourt.go.kr/index.jsp" target="_blank" title="새창열림">헌법재판소 채용시스템</a>
+						</li>
+						<li><a href="http://law.ccourt.go.kr/" target="_blank" title="새창열림">헌법실무연구회</a></li>
+						<li><a href="http://www.aaccsrd.org/kr/main.do" target="_blank" title="새창열림">AACC 연구사무국</a></li>
+					</ul>
+				</div>
+				<ul class="siteInfo">
+					<li>우편번호 03060 서울특별시 종로구 북촌로 15 (재동 83) </li>
+					<li>대표전화 02-708-3456</li>
+					<li>대표팩스 02-708-3566</li>
+					<li>webmaster@ccourt.go.kr</li>
+				</ul>
+				<p class="copyright">Copyright 2020 Constitutional court of Korea all rights reserved. </p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+
+<!-- 수집 건수 확인 -->
+<div id="modal-colle-number" class="uk-modal modal-d big2">
+	<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+		<button class="uk-modal-close-default uk-close" type="button"></button>
+		<div class="modal-p modal-h-scroll">
+			<!-- title -->
+			<div class="modal-title">
+				<h3>수집 건수 확인</h3>
+			</div>
+			<!-- tab -->
+			<ol class="ui ui-process col2 mt20">
+				<li class="on"><span class="inner">수집 건수 확인</span></li>
+				<li><span class="inner">상세설정</span></li>
+			</ol>
+			<!-- search -->
+			<div class="board-search mb10">
+				<form class="board-search__date" method="get" action="">
+					<p class="d-flex">
+						<b class="mr10">연도</b>
+						<input type="text" class="input" title="시작연도">
+						<span>-</span>
+						<input type="text" class="input" title="마지막연도">
+					</p>
+					<input type="text" name="searchKeyword" placeholder="검색어를 입력해주세요." value="" title="검색어 입력"
+						class="search">
+					<button type="submit" title="검색하기">검색하기</button>
+					<div class="tooltip">
+						<span class="question btn bg_color6">도움말</span>
+						<p class="tooltiptext">
+							<strong>검색 도움말</strong>
+							<b>[검색방법]</b>
+							<span>연산자를 이용하여 최대 5개까지 키워드를 조합하여 검색할 수 있습니다.</span>
+							<span>의미있는 데이터를 수집하기 위해 키워드를 조합하여 사용해 주십시요.</span>
+							<b>[연산자]</b>
+							<span>‘&’는 AND검색 <br> - 헌법&재판 : 헌법과 재판이 동시에 존재하는 데이터</span>
+							<span>‘|’ 는 OR검색<br> - 헌법|재판 : 헌법 또는 재판 둘중 하나 이상 존재하는 데이터</span>
+						</p>
+					</div>
+				</form>
+				<p class="check"><i></i>검색연산자(&, | )를 이용해 키워드 최대 5개까지 조합가능</p>
+			</div>
+
+			<!-- result -->
+			<div class="search-result-wrap">
+				<div class="d-flex">
+					<div class="search-target">
+						<h2>검색 대상</h2>
+						<div class="scroll-div">
+							<h3>유관기관</h3>
+							<ul>
+								<li>
+									<a href="#">
+										<b>RISS (학위논문)</b>
+										<span>55건</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<b>RISS (국내 학술지논문)</b>
+										<span>1건</span>
+									</a>
+								</li>
+							</ul>
+							<h3>국내 Web DB</h3>
+							<ul>
+								<li class="noresult">
+									<a href="#">
+										<b>KISS (한국학술정보)</b>
+										<span>0건</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<b>DBPIA</b>
+										<span>125건</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<b>스콜라 (학지사, 교보문고) </b>
+										<span>5건</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<b>e-article(학술교육원) </b>
+										<span>65건</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<b>로앤비(학회논문) </b>
+										<span>5건</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<b>코리아스칼라 </b>
+										<span>1건</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<b>스콜라 (학지사, 교보문고) </b>
+										<span>5건</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<b>e-article(학술교육원) </b>
+										<span>65건</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<b>로앤비(학회논문) </b>
+										<span>5건</span>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<b>코리아스칼라 </b>
+										<span>1건</span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="search-result">
+						<h2>검색 결과</h2>
+						<div class="scroll-div">
+							<ul>
+								<li>전자거래에 있어서 개인정보보호에 관한 연구</li>
+								<li>영상물 등급분류제도의 행정법적 연구</li>
+								<li>게임콘텐츠 산업 활성화 방안에 관한 연구</li>
+								<li>모바일 게임의 확률형 아이템 관리제도 개선에 관한 연구</li>
+								<li>게임이론을 이용한 안전보건 활성화 방안 연구</li>
+								<li>사이버 안전 관련 법률의 게임 이론적 연구</li>
+								<li>학교폭력예방을 위한 법제 연구 : 경찰의 대응방안과 헌법정책을 중심으로</li>
+								<li>디지털콘텐츠 관련법 통합검색체계 구축에 관한 연구</li>
+							</ul>
+						</div>
+					</div>
+					<div class="result-num">
+						<p>전체 : 255건</p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<p class="uk-text-center mt20">
+			<button class="btn small2 bg_color1" type="button" uk-toggle="target: #modal-colle-period">다음 단계
+				(1/2)</button>
+			<button class="btn small2 outline line_color1 uk-modal-close" type="button">취소</button>
+	</div>
+</div>
+<!-- 수집 주기 설정 -->
+<div id="modal-colle-period" class="uk-modal modal-d big">
+	<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+		<button class="uk-modal-close-default" type="button" uk-close></button>
+		<div class="modal-p">
+			<!-- title -->
+			<div class="modal-title">
+				<h3>수집 건수 확인</h3>
+			</div>
+			<!-- tab -->
+			<ol class="ui ui-process col2 mt20">
+				<li><span class="inner">수집 건수 확인</span></li>
+				<li class="on"><span class="inner">상세설정</span></li>
+			</ol>
+
+			<!-- result -->
+			<div class="search-result-wrap">
+				<ul class="table-ul-write mt20">
+					<li>
+						<strong>수집 주기</strong>
+						<p>
+							<input type="radio">
+							<label for="">매주</label>
+							<select name="" id="" class="select normal" title="요일선택">
+								<option value="">토요일</option>
+							</select>
+						</p>
+						<p>
+							<input type="radio">
+							<label for="">매일</label>
+							<select name="" id="" class="select normal" title="일선택">
+								<option value="">01일</option>
+							</select>
+						</p>
+					</li>
+					<li>
+						<strong>수집 종료일</strong>
+						<p>
+							<input type="radio">
+							<label for="">등록일로부터 1년</label>
+						</p>
+						<p>
+							<input type="radio">
+							<label for="">직접입력</label>
+							<input type="date" name="" id="" class="d-input" title="날짜입력">
+						</p>
+					</li>
+					<li>
+						<strong>수집 자료 알림</strong>
+						<p>
+							<input type="checkbox">
+							<label for="">SMS (010-****-3995)</label>
+						</p>
+						<p>
+							<input type="radio">
+							<label for="">이메일 (jt***@edentns.com)</label>
+						</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<p class="uk-text-center mt20">
+			<button class="btn small2 bg_color1" type="button" uk-toggle="target: #modal-colle-end">저장</button>
+			<button class="btn small2 outline line_color1 uk-modal-close" type="button">취소</button>
+	</div>
+</div>
+<!-- 수집 완료 -->
+<div id="modal-colle-end" class="uk-modal modal-d small">
+	<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+		<button class="uk-modal-close-default" type="button" uk-close></button>
+		<div class="modal-p">
+			<!-- title -->
+			<div class="modal-title">
+				<h3>수집설정 저장</h3>
+			</div>
+			<div class="modal-end-p">
+				<span>수집설정을 저장하시겠습니까?</span>
+				<b class="color-red">* 저장시 RPA가 바로 실행됩니다.</b>
+			</div>
+		</div>
+		<p class="uk-text-center mt20">
+			<button class="btn small2 bg_color1" type="button">확인</button>
+			<button class="btn small2 outline line_color1 uk-modal-close" type="button">취소</button>
+	</div>
+</div>

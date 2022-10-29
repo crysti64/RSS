@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>헌법재판소 연구자료 지원서비스</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<script src="../js/jquery-1.9.1.min.js"></script>
+	<script src="../js/uikit.min.js"></script>
+	<script src="../js/layout.js"></script>
+	<script src="../js/script.js"></script>
+</head>
+
+<body>
+	<div class="accessibilityTab">
+		<a href="#content">본문바로가기</a>
+		<a href="#menu">주메뉴 바로가기</a>
+	</div>
+	<div id="wrap">
+		<nav class="uk-navbar-container top-nav" uk-navbar>
+			<div class="uk-navbar-left">
+				<ul class="uk-navbar-nav">
+					<li> <a href="#none">종합법률정보</a> </li>
+					<li> <a href="#none">국가법령센터</a> </li>
+					<li> <a href="#none">의안정보시스템</a> </li>
+					<li>
+						<a href="#"><span class="btn more">더보기 +</span></a>
+						<div class="uk-navbar-dropdown"
+							uk-drop="boundary: !.uk-navbar; stretch: x; flip: false; mode:click">
+							<div class="uk-navbar-dropdown-grid uk-child-width-1-6" uk-grid>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li class="uk-active"><a href="#">종합법률정보</a></li>
+										<li><a href="#">종합법률정보</a></li>
+										<li><a href="#">종합법률정보</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">국가법령센터</a></li>
+										<li><a href="#">국가법령센터</a></li>
+										<li><a href="#">국가법령센터</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">의안정보시스템</a></li>
+										<li><a href="#">의안정보시스템</a></li>
+										<li><a href="#">의안정보시스템</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li class="uk-active"><a href="#">종합법률정보</a></li>
+										<li><a href="#">종합법률정보</a></li>
+										<li><a href="#">종합법률정보</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">국가법령센터</a></li>
+										<li><a href="#">국가법령센터</a></li>
+										<li><a href="#">국가법령센터</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">의안정보시스템</a></li>
+										<li><a href="#">의안정보시스템</a></li>
+										<li><a href="#">의안정보시스템</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- header -->
+		<header class="header">
+			<h1 class="header-logo">
+				<a href="#" title="헌법재판소 연구자료 지원서비스 메인으로">
+					<img src="../images/logo.png" alt="헌법재판소 연구자료 지원서비스 ">
+				</a>
+			</h1>
+			<nav class="gnb-wrap">
+				<ul id="menu">
+					<li> <a href="001_data_search_list.html">자료수집설정</a> </li>
+					<li> <a href="100_collect_result.html">수집결과</a> </li>
+					<li> <a href="200_locker_list.html">보관함</a> </li>
+					<li> <a href="300_share_data.html">공유하기</a> </li>
+					<li class="last"> <a href="400_law_list.html" class="current"><span>법률개정사항</span></a> </li>
+				</ul>
+			</nav>
+			<div class="header-btn">
+				<p>
+					전속1부 헌법연구관
+					<b>홍길동</b>
+				</p>
+				<a href="#" class="logout" title="로그아웃">로그아웃</a>
+
+				<div class="sitemap-wrap">
+					<div class="sitemap-layout">
+						<ul class="gnb">
+							<li> <a href="001_data_search_list.html" class="current">자료수집설정</a> </li>
+							<li> <a href="100_collect_result.html">수집결과</a> </li>
+							<li> <a href="200_locker_list.html">보관함</a> </li>
+							<li> <a href="300_share_data.html">공유하기</a> </li>
+							<li> <a href="400_law_list.html">법률개정사항</a> </li>
+						</ul>
+					</div>
+				</div>
+				<a href="#" class="sitemap" title="사이트맵 열기">
+					<span>사이트맵 열기</span>
+				</a>
+			</div>
+		</header>
+
+		<!-- content -->
+		<div id="main">
+			<div class="path">
+				<nav class="path-nav">
+					<a href="#" class="navi_home">HOME</a> &gt; <a href="#">법률개정사항</a>
+					&gt; <a href="#" class="navi_ov">국가법령정보 수집결과</a>
+				</nav>
+			</div>
+
+			<div id="container">
+				<h1 id="tit_cont">법률개정사항</h1>
+				<ul class="tab-ul type1 col3 mt50">
+					<li><a href="400_law_list.html"><span>법령 · 자치법규 · 행정규칙 등록</span></a></li>
+					<li><a href="410_agenda_collect.html"><span>의안정보 수집결과</span></a></li>
+					<li class="on"><a href="420_legal_info_collect.html"><span>국가법령정보 수집결과</span></a></li>
+				</ul>
+
+				<div class="board-search">
+					<div class="board-search__info">
+						<p>
+							<span>전체 : </span>
+							<b>1859</b>
+							<span>건 </span>
+						</p>
+					</div>
+
+					<form class="board-search__write" method="get" action="">
+						<select name="searchCondition" class="select mr10" title="검색 구분">
+							<option value="">전체</option>
+							<option value="1">제목</option>
+							<option value="2">내용</option>
+						</select>
+						<input type="text" name="searchKeyword" placeholder="검색어를 입력해주세요." value="" title="검색어 입력"
+							class="search">
+						<button type="button" class="submit" title="검색하기">검색하기</button>
+					</form>
+				</div>
+
+				<div id="lnb-cont">
+					<aside class="lnb">
+						<ul uk-accordion="" class="uk-accordion">
+							<li class="uk-open">
+								<input type="checkbox" name="" id="" title="법령">
+								<a class="uk-accordion-title" href="#none">법령 </a>
+								<div class="uk-accordion-content">
+									<ul class="lnb-list col1">
+										<li>
+											<input type="checkbox">
+											<label for="">10ㆍ27법난 피해자의 명예회복 등에 관한 법률</label>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">119구조ㆍ구급에 관한 법률</label>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</aside>
+					<div class="aside-cont">
+						<p class="mb5">*제안대수가 변경 될 시 기존 수집된 의안정보 데이터이 삭제됩니다.</p>
+						<div class="table-responsive">
+							<table class="table table-bordered">
+								<caption></caption>
+								<colgroup>
+									<col style="width:5%">
+									<col style="width:10%">
+									<col>
+									<col style="width:7%">
+									<col style="width:10%">
+									<col style="width:15%">
+									<col style="width:7%">
+								</colgroup>
+								<thead>
+									<tr>
+										<th scope="col">번호</th>
+										<th scope="col">등록일</th>
+										<th scope="col">법령명</th>
+										<th scope="col">조</th>
+										<th scope="col">개정여부</th>
+										<th scope="col">수집일</th>
+										<th scope="col" class="last">사이트 링크</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td class="noline">1</td>
+										<td>2022-01-01</td>
+										<td>10ㆍ27법난 피해자의 명예회복 등에 관한 법률</td>
+										<td>1,3,5</td>
+										<td>제3조 개정</td>
+										<td>2022-08-22 17:45</td>
+										<td>
+											<button class="btn small2 bg_color6">바로가기</button>
+										</td>
+									</tr>
+								</tbody>
+							</table>
+						</div>
+						<!-- pager -->
+						<div class="pager">
+							<a class="arr prev2" href="#">처음으로</a>
+							<a class="arr prev" href="#">이전</a>
+							<strong class="active">1</strong>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="#">4</a>
+							<a href="#">5</a>
+							<a class="arr next" href="#">다음</a>
+							<a class="arr next2" href="#">맨끝으로</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- footer -->
+		<div id="footer">
+			<div class="inner">
+				<span class="footerLogo"><img src="../images/img_footerLogo.png" alt="헌법재판소 로고"></span>
+				<ul class="footerLink">
+					<li class="txtBrown"><a href="#">개인정보 처리방침</a></li>
+					<li><a href="#">개인정보 보호</a></li>
+				</ul>
+				<div class="relatedSite">
+					<a href="#" class="siteOpen">관련사이트</a>
+					<ul>
+						<li><a href="https://ecourt.ccourt.go.kr/" target="_blank" title="새창열림">전자헌법재판센터</a></li>
+						<li><a href="http://library.ccourt.go.kr/" target="_blank" title="새창열림">헌법재판소도서관</a></li>
+						<li><a href="http://kids.ccourt.go.kr/" target="_blank" title="새창열림">어린이헌법재판소</a></li>
+						<li><a href="http://ri.ccourt.go.kr" target="_blank" title="새창열림">헌법재판연구원</a></li>
+						<li><a href="http://history.ccourt.go.kr/" target="_blank" title="새창열림">사이버역사관</a></li>
+						<li><a href="http://recruit.ccourt.go.kr/index.jsp" target="_blank" title="새창열림">헌법재판소 채용시스템</a>
+						</li>
+						<li><a href="http://law.ccourt.go.kr/" target="_blank" title="새창열림">헌법실무연구회</a></li>
+						<li><a href="http://www.aaccsrd.org/kr/main.do" target="_blank" title="새창열림">AACC 연구사무국</a></li>
+					</ul>
+				</div>
+				<ul class="siteInfo">
+					<li>우편번호 03060 서울특별시 종로구 북촌로 15 (재동 83) </li>
+					<li>대표전화 02-708-3456</li>
+					<li>대표팩스 02-708-3566</li>
+					<li>webmaster@ccourt.go.kr</li>
+				</ul>
+				<p class="copyright">Copyright 2020 Constitutional court of Korea all rights reserved. </p>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+
+<!-- 상세정보 -->
+<div id="modal-agenda-spec" uk-modal class="modal-d big">
+	<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+		<button class="uk-modal-close-default" type="button" uk-close></button>
+		<div class="modal-p">
+			<!-- title -->
+			<div class="modal-title">
+				<h3>10ㆍ27법난 피해자의 명예회복 등에 관한 법률 주요내용</h3>
+			</div>
+
+			<!-- result -->
+			<div class="set-flex-wrap wrap-set mt20">
+				<div class="wd100 w-collect">
+					<h2>제안이유</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure cupiditate eaque dignissimos
+						eligendi autem corrupti, ipsa nulla temporibus, voluptatum impedit tempore error iusto adipisci?
+						Tenetur quod animi, suscipit non quia, tempore repellat cum odit omnis ut, minima eveniet.
+						Tempora iste nam temporibus placeat natus, sint ex asperiores. Nisi, culpa consequatur.</p>
+					<h2>주요내용</h2>
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, tempora! Accusamus culpa
+						suscipit id harum porro dolor! Labore ut voluptas nulla earum aut alias. Cumque tenetur sit
+						impedit veritatis voluptatibus deleniti distinctio, minus perspiciatis odit, ipsa perferendis
+						porro fugit recusandae omnis. Optio cupiditate repellat facilis mollitia ipsam in, nam
+						consequuntur commodi omnis molestias sunt quam, beatae sit eius maiores! Optio a quidem cum
+						vitae consectetur, doloribus, eos laborum consequatur blanditiis voluptatibus nam temporibus,
+						qui minus ipsa tempora aperiam incidunt reiciendis laudantium aliquam. Est ullam voluptatibus
+						nulla architecto. Magni veritatis illum qui perspiciatis modi eveniet illo corrupti adipisci
+						totam animi. Veritatis!</p>
+				</div>
+			</div>
+		</div>
+		<p class="uk-text-center mt20">
+			<button class="btn small2 bg_color1" type="button">확인</button>
+			<button class="btn small2 outline line_color1 uk-modal-close" type="button">취소</button>
+	</div>
+</div>

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>헌법재판소 연구자료 지원서비스</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<script src="../js/jquery-1.9.1.min.js"></script>
+	<script src="../js/uikit.min.js"></script>
+	<script src="../js/layout.js"></script>
+	<script src="../js/script.js"></script>
+	<script>
+		$(function () {
+			// $(".multi-accordion>li:has(ul)>a").each(function () {
+			// 	$(this).html($(this).html());
+			// });
+			$(".multi-accordion ul li:has(ul)")
+				.find("a:first")
+				.append("<span class='arrow-mal right'></span>");
+
+			console.log($(".multi-accordion>li:has(ul)"));
+			$(".multi-accordion>li:has(ul)").addClass('y-before');
+
+			$(".multi-accordion li>a").click(function () {
+				var $maLi = $(this).parent();
+				var $maUl = $maLi.parent();
+				$(this).removeClass('expand');
+				$maUl.find('ul').not($maLi.find('ul')).slideUp();
+				$maLi.children('ul').slideToggle();
+				if ($maLi.children('ul').is(':visible') || $maLi.has('ul')) {
+					$maLi.toggleClass('expand');
+				}
+
+			});
+		});
+	</script>
+</head>
+
+<body>
+
+	<aside class="lnb filter">
+		<h2><input type="checkbox" title="전체선택"> &nbsp;&nbsp;전체</h2>
+		<ul class="multi-accordion">
+			<li>
+				<input type="checkbox" title="연구부">
+				<a href="#none">연구부</a>
+				<ul>
+					<li>
+						<input type="checkbox" title="연구관">
+						<a href="#none">연구관</a>
+						<ul>
+							<li>
+								<input type="checkbox" title="수석부장연구관">
+								<a href="#none">수석부장연구관</a>
+								<ul class="last">
+									<li>
+										<input type="checkbox" title="수석부장연구관">
+										<a href="#none">수석부장연구관 홍길동</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<input type="checkbox" title="선임부장연구관">
+								<a href="#none">선임부장연구관</a>
+							</li>
+							<li>
+								<input type="checkbox" title="연구관">
+								<a href="#none">공동부</a>
+								<ul>
+									<li>
+										<input type="checkbox" title="자유권부">
+										<a href="#none">자유권부</a>
+										<ul class="last">
+											<li>
+												<input type="checkbox" title="선임헌법연구관 자유권">
+												<a href="#none">선임헌법연구관 자유권</a>
+											</li>
+											<li>
+												<input type="checkbox" title="헌법연구관 자유권">
+												<a href="#none">헌법연구관 자유권</a>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<input type="checkbox" title="재산권부">
+										<a href="#none">재산권부</a>
+									</li>
+									<li>
+										<input type="checkbox" title="사회권부">
+										<a href="#none">사회권부</a>
+										<ul class="last">
+											<li>
+												<input type="checkbox" title="선임헌법연구관 자유권">
+												<a href="#none">선임헌법연구관 사회권부</a>
+											</li>
+											<li>
+												<input type="checkbox" title="헌법연구관 자유권">
+												<a href="#none">헌법연구관 사회권부</a>
+											</li>
+										</ul>
+									</li>
+								</ul>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<input type="checkbox" title="부속실">
+						<a href="#none">부속실</a>
+					</li>
+				</ul>
+			</li>
+			<li>
+				<input type="checkbox" title="헌법재판소 사무처">
+				<a href="#none">헌법재판소 사무처</a>
+			</li>
+		</ul>
+	</aside>
+
+</body>
+
+</html>

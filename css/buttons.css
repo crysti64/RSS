@@ -1,0 +1,522 @@
+@charset "UTF-8";
+
+/******************** normal btn ****************************/
+.btn {
+	position: relative;
+	display: inline-block;
+	margin: 0;
+	height: auto;
+	line-height: inherit;
+	border: none;
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	vertical-align: top;
+	cursor: pointer;
+	box-sizing: border-box;
+	padding: 0 10px;
+	border-radius: 2px;
+	letter-spacing: -0.5px;
+}
+
+.btn:hover {
+	text-decoration: underline;
+}
+
+.btn:after {
+	content: "";
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.btn:visited,
+.btn:link {
+	color: #fff;
+}
+
+.btn.disable {
+	background-color: #F1F3F5;
+	color: #bbb;
+}
+
+.btn.bg_color1 {
+	background-color: #1f426f;
+	color: #fff;
+}
+
+.btn.bg_color1:focus,
+.btn.bg_color1:hover {
+	background-color: #276FBA;
+}
+
+.btn.bg_color2 {
+	background-color: #464E5F;
+	color: #fff;
+}
+
+.btn.bg_color2:focus,
+.btn.bg_color2:hover {
+	background-color: #111111;
+}
+
+.btn.bg_color3 {
+	background-color: #BDBDBD;
+	color: #fff;
+}
+
+.btn.bg_color3:focus,
+.btn.bg_color3:hover {
+	background-color: #464E5F;
+}
+
+.btn.bg_color4 {
+	background-color: #911b2b;
+	color: #fff;
+}
+
+.btn.bg_color5 {
+	background-color: #353a41;
+	color: #fff;
+}
+
+.btn.bg_color6 {
+	background-color: #ffc000;
+	color: #000;
+}
+
+.btn.bg_color7 {
+	background-color: #00b050;
+	color: #fff;
+}
+
+.btn.bg_color8 {
+	background-color: #3276b1;
+	color: #fff;
+}
+
+.btn.outline {
+	border: 1px solid #E0E0E0;
+	color: #464E5F;
+}
+
+.btn.outline:focus,
+.btn.outline:hover {
+	background-color: #F8F8F8;
+	color: #7E8299;
+	border: 1px solid #E0E0E0;
+}
+
+.btn.ico {
+	background-position: left 12px top 8px;
+	background-repeat: no-repeat;
+	padding-left: 36px !important;
+}
+
+.btn.ico.add {
+	background-image: url("../images/ico_add_white.png");
+}
+
+.btn.ico.edit {
+	background-image: url("../images/ico_edit.png");
+}
+
+.btn.ico.list {
+	background-image: url("../images/ico_btn_list.png");
+}
+
+.btn.ico.down {
+	background-image: url("../images/ico_down.png");
+}
+
+.btn.ico.del {
+	background-image: url("../images/ico_del.png");
+}
+
+.btn.ico.save {
+	background-image: url("../images/ico_save.png");
+}
+
+.btn.ico.put {
+	background-image: url("../images/ico_put.png");
+}
+
+.btn.ico.trash {
+	background-image: url("../images/ico_trash.png");
+}
+
+.btn.ico.restore {
+	background-image: url("../images/ico_restore.png");
+}
+
+.btn.ico.copy {
+	background-image: url("../images/ico_copy.png");
+}
+
+.btn.ico.move {
+	background-image: url("../images/ico_move.png");
+}
+
+.btn.big {
+	height: 48px;
+	padding: 14px 30px 14px;
+	font-size: 18px;
+}
+
+.btn.middle {
+	height: 40px;
+	padding: 10px 50px 12px;
+	font-size: 16px;
+}
+
+.btn.small {
+	height: 34px;
+	padding: 7px 20px 8px;
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.btn.small2 {
+	height: 30px;
+	padding: 6px 10px 7px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.btn.small3 {
+	padding: 4px 5px 5px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+
+.icobt {
+	background-color: #eee;
+	text-indent: -999999em;
+	width: 40px;
+	height: 40px;
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+
+.icobt.link {
+	background-image: url('../images/ico_link.png');
+}
+
+.icobt.memo {
+	background-image: url('../images/ico_memo.png');
+}
+
+/* span */
+.state-box {
+	display: inline-block;
+	padding: 7px 10px;
+	border-radius: 2px;
+	font-size: 12px;
+	white-space: nowrap;
+	letter-spacing: 0;
+}
+
+.state-box.violet {
+	background-color: #EEE5FF;
+	color: #8950FC;
+}
+
+.state-box.blue {
+	background-color: #3699FF;
+	color: #fff;
+}
+
+.state-box.yellow {
+	background-color: #FFA800;
+	color: #fff;
+}
+
+.state-box.gray {
+	background-color: #E9EDF5;
+	color: #687182;
+}
+
+.state-box.red {
+	background-color: #FFE2E5;
+	color: #F64E60;
+}
+
+.state-box.green {
+	background-color: #1BC5BD;
+	color: #fff;
+}
+
+.state-circle {
+	position: relative;
+	display: block;
+	font-size: 12px;
+	font-weight: 700;
+	padding-left: 14px;
+	color: #212121;
+	width: 60px;
+	text-align: left;
+}
+
+.state-circle:before {
+	content: "";
+	display: inline-block;
+	position: absolute;
+	left: 0;
+	top: 1px;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+}
+
+.state-circle.red:before {
+	background-color: #FF354B;
+}
+
+.state-circle.yellow:before {
+	background-color: #FFA800;
+}
+
+.state-circle.green:before {
+	background-color: #50CD89;
+}
+
+.state-circle.gray:before {
+	background-color: #687182;
+}
+
+.state-circle.violet:before {
+	background-color: #A359DD;
+}
+
+.state-circle.blue:before {
+	background-color: #3699FF;
+}
+
+/* etc btn */
+.btn-del {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: url('../images/btn_del.png') no-repeat;
+	text-indent: -999999999em;
+}
+
+.btn-add {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: url('../images/btn_add.png') no-repeat;
+	text-indent: -999999999em;
+}
+
+.btn-file {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	background: url('../images/btn_search.png') no-repeat;
+	text-indent: -999999999em;
+}
+
+
+.question {
+	display: block;
+	width: 45px;
+	height: 45px;
+	background: url('../images/ico_question.png') no-repeat center;
+	background-color: #8a8a8a;
+	text-indent: -999999999999em;
+	border-radius: 2px;
+}
+
+.question2 {
+	display: block;
+	width: 30px;
+	height: 30px;
+	background: url('../images/ico_question.png') no-repeat center;
+	background-size: 10px;
+	background-color: #911b2b;
+	text-indent: -999999999999em;
+	border-radius: 30px;
+}
+
+.question3 {
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url('../images/ico_question.png') no-repeat center;
+	background-size: 10px;
+	background-color: #FFA800;
+	text-indent: -999999999999em;
+	border-radius: 30px;
+}
+
+.tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 330px;
+	background-color: #fff;
+	box-shadow: 0px 1px 11px 2px #A6A6A6;
+	padding-bottom: 10px;
+	color: #000;
+	font-size: 13px;
+	border-radius: 6px;
+	line-height: 18px;
+
+	/* Position the tooltip */
+	position: absolute;
+	top: 55px;
+	right: -20px;
+	margin-left: -60px;
+	z-index: 1;
+}
+
+.tooltip .tooltiptext strong,
+.tooltip .tooltiptext span,
+.tooltip .tooltiptext b {
+	display: block;
+	padding: 3px 10px;
+	line-height: 18px;
+}
+
+.tooltip .tooltiptext strong {
+	font-weight: 700;
+	background-color: #21426e;
+	border-radius: 6px 6px 0 0;
+	padding: 10px;
+	color: #fff;
+}
+
+.tooltip .tooltiptext b {
+	font-weight: 700;
+	padding-top: 10px;
+}
+
+.tooltip .tooltiptext span {
+	position: relative;
+	color: #666;
+	padding-left: 17px;
+}
+
+.tooltip .tooltiptext span:before {
+	content: "";
+	position: absolute;
+	left: 10px;
+	top: 8px;
+	width: 3px;
+	height: 3px;
+	border-radius: 4px;
+	background-color: #21426e;
+}
+
+.tooltip .tooltiptext::after {
+	content: "";
+	position: absolute;
+	top: -5px;
+	right: 40px;
+	margin-left: -5px;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	border-bottom: 5px solid #21426e;
+}
+
+.tooltip a:focus+.tooltiptext,
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+/* locker setting */
+.locker-setting>.set-btn>a,
+.locker-setting>a {
+	display: inline-block;
+	width: 30px !important;
+	height: 30px;
+	text-indent: -9999999999em;
+}
+
+.locker-setting>a.ico-setting {
+	background: url('../images/ico_btn_setting.png') no-repeat;
+}
+
+.locker-setting>.set-btn>a.ico-locker-in-folder {
+	background: url('../images/ico_add_white2.png') no-repeat;
+}
+
+.locker-setting>.set-btn>a.ico-locker-share {
+	background: url('../images/ico_share_white.png') no-repeat;
+}
+
+.locker-setting>.set-btn>a.ico-locker-edit {
+	background: url('../images/ico_edit_white.png') no-repeat;
+}
+
+.locker-setting>.set-btn>a.ico-locker-del {
+	background: url('../images/ico_del_white.png') no-repeat;
+}
+
+
+.locker-setting {
+	width: 40px;
+}
+
+.locker-setting .set-btn {
+	width: 0;
+	position: absolute;
+	right: -2px;
+	height: 39px;
+	top: 0;
+	background: #00b050;
+	border-radius: 0 4px 4px 0;
+	border-bottom: 1px solid #fff;
+	z-index: 10;
+	transition: all .5s;
+}
+
+.locker-setting .set-btn>a {
+	width: 35px !important;
+	display: block;
+	text-align: center;
+	background-position: center center !important;
+	border-right: 1px solid rgba(255, 255, 255, .2);
+}
+
+.locker-setting.open .set-btn {
+	width: 130px;
+	right: -132px;
+}
+
+
+.locker-setting .ico-setting {
+	z-index: 1;
+	position: absolute;
+	right: 0;
+	top: 11px;
+}
+
+.locker-setting .ico-setting.on {
+	background: url('../images/btn_ico_close.png') no-repeat;
+}
+
+.locker-ul>li>div>ul>li>input[type="checkbox"] {
+	margin-left: 15px !important;
+}
+
+.in-folder {
+	position: absolute;
+	left: 5px;
+	top: 5px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 22px;
+	height: 22px;
+	background-color: #ffc000;
+	border-radius: 25px;
+	font-size: 10px;
+	color: #000;
+	text-align: center;
+	line-height: 22px;
+	font-style: normal;
+}

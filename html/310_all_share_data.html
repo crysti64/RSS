@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>헌법재판소 연구자료 지원서비스</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<script src="../js/jquery-1.9.1.min.js"></script>
+	<script src="../js/uikit.min.js"></script>
+	<script src="../js/layout.js"></script>
+	<script src="../js/script.js"></script>
+</head>
+
+<body>
+	<div class="accessibilityTab">
+		<a href="#content">본문바로가기</a>
+		<a href="#menu">주메뉴 바로가기</a>
+	</div>
+	<div id="wrap">
+		<nav class="uk-navbar-container top-nav" uk-navbar>
+			<div class="uk-navbar-left">
+				<ul class="uk-navbar-nav">
+					<li> <a href="#none">종합법률정보</a> </li>
+					<li> <a href="#none">국가법령센터</a> </li>
+					<li> <a href="#none">의안정보시스템</a> </li>
+					<li>
+						<a href="#"><span class="btn more">더보기 +</span></a>
+						<div class="uk-navbar-dropdown"
+							uk-drop="boundary: !.uk-navbar; stretch: x; flip: false; mode:click">
+							<div class="uk-navbar-dropdown-grid uk-child-width-1-6" uk-grid>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li class="uk-active"><a href="#">종합법률정보</a></li>
+										<li><a href="#">종합법률정보</a></li>
+										<li><a href="#">종합법률정보</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">국가법령센터</a></li>
+										<li><a href="#">국가법령센터</a></li>
+										<li><a href="#">국가법령센터</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">의안정보시스템</a></li>
+										<li><a href="#">의안정보시스템</a></li>
+										<li><a href="#">의안정보시스템</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li class="uk-active"><a href="#">종합법률정보</a></li>
+										<li><a href="#">종합법률정보</a></li>
+										<li><a href="#">종합법률정보</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">국가법령센터</a></li>
+										<li><a href="#">국가법령센터</a></li>
+										<li><a href="#">국가법령센터</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">의안정보시스템</a></li>
+										<li><a href="#">의안정보시스템</a></li>
+										<li><a href="#">의안정보시스템</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- header -->
+		<header class="header">
+			<h1 class="header-logo">
+				<a href="#" title="헌법재판소 연구자료 지원서비스 메인으로">
+					<img src="../images/logo.png" alt="헌법재판소 연구자료 지원서비스 ">
+				</a>
+			</h1>
+			<nav class="gnb-wrap">
+				<ul id="menu">
+					<li> <a href="001_data_search_list.html">자료수집설정</a> </li>
+					<li> <a href="100_collect_result.html">수집결과</a> </li>
+					<li> <a href="200_locker_list.html">보관함</a> </li>
+					<li> <a href="300_share_data.html" class="current">공유하기</a> </li>
+					<li class="last"> <a href="400_law_list.html"><span>법률개정사항</span></a> </li>
+				</ul>
+			</nav>
+			<div class="header-btn">
+				<p>
+					전속1부 헌법연구관
+					<b>홍길동</b>
+				</p>
+				<a href="#" class="logout" title="로그아웃">로그아웃</a>
+
+				<div class="sitemap-wrap">
+					<div class="sitemap-layout">
+						<ul class="gnb">
+							<li> <a href="001_data_search_list.html">자료수집설정</a> </li>
+							<li> <a href="100_collect_result.html">수집결과</a> </li>
+							<li> <a href="200_locker_list.html">보관함</a> </li>
+							<li> <a href="300_share_data.html" class="current">공유하기</a> </li>
+							<li> <a href="400_law_list.html">법률개정사항</a> </li>
+						</ul>
+					</div>
+				</div>
+				<a href="#" class="sitemap" title="사이트맵 열기">
+					<span>사이트맵 열기</span>
+				</a>
+			</div>
+		</header>
+
+		<!-- content -->
+		<div id="main">
+			<div class="path">
+				<nav class="path-nav">
+					<a href="#" class="navi_home">HOME</a> &gt; <a href="#">공유하기</a>
+					&gt; <a href="#" class="navi_ov">검색설정</a>
+				</nav>
+			</div>
+
+			<div id="container">
+				<h1 id="tit_cont">공유하기</h1>
+				<ul class="tab-ul type1 col2 mt50">
+					<li><a href="300_share_data.html"><span>내 공유</span></a></li>
+					<li class="on"><a href="310_all_share_data.html"><span>전체 공유 자료</span></a></li>
+				</ul>
+
+				<div class="board-search">
+					<div class="board-search__info">
+						<p>
+							<span>전체 : </span>
+							<b>1859</b>
+							<span>건 </span>
+						</p>
+					</div>
+
+					<form class="board-search__write" method="get" action="">
+						<select name="" id="" class="normal" title="리스트갯수">
+							<option value="">10개씩</option>
+						</select>
+						<select name="searchCondition" class="select mr10" title="검색 구분">
+							<option value="">전체</option>
+							<option value="1">제목</option>
+							<option value="2">내용</option>
+						</select>
+						<input type="text" name="searchKeyword" placeholder="검색어를 입력해주세요." value="" title="검색어 입력">
+						<button type="submit" title="검색하기">검색하기</button>
+					</form>
+				</div>
+
+				<div id="lnb-cont">
+					<aside class="lnb filter">
+						<h2><input type="checkbox" title="전체선택"> &nbsp;&nbsp;전체</h2>
+						<ul class="multi-accordion">
+							<li>
+								<input type="checkbox" title="연구부">
+								<a href="#none">연구부</a>
+								<ul>
+									<li>
+										<input type="checkbox" title="연구관">
+										<a href="#none">연구관</a>
+										<ul>
+											<li>
+												<input type="checkbox" title="수석부장연구관">
+												<a href="#none">수석부장연구관</a>
+												<ul class="last">
+													<li>
+														<input type="checkbox" title="수석부장연구관">
+														<a href="#none">수석부장연구관 홍길동</a>
+													</li>
+												</ul>
+											</li>
+											<li>
+												<input type="checkbox" title="선임부장연구관">
+												<a href="#none">선임부장연구관</a>
+											</li>
+											<li>
+												<input type="checkbox" title="연구관">
+												<a href="#none">공동부</a>
+												<ul>
+													<li>
+														<input type="checkbox" title="자유권부">
+														<a href="#none">자유권부</a>
+														<ul class="last">
+															<li>
+																<input type="checkbox" title="선임헌법연구관 자유권">
+																<a href="#none">선임헌법연구관 자유권</a>
+															</li>
+															<li>
+																<input type="checkbox" title="헌법연구관 자유권">
+																<a href="#none">헌법연구관 자유권</a>
+															</li>
+														</ul>
+													</li>
+													<li>
+														<input type="checkbox" title="재산권부">
+														<a href="#none">재산권부</a>
+													</li>
+													<li>
+														<input type="checkbox" title="사회권부">
+														<a href="#none">사회권부</a>
+														<ul class="last">
+															<li>
+																<input type="checkbox" title="선임헌법연구관 자유권">
+																<a href="#none">선임헌법연구관 사회권부</a>
+															</li>
+															<li>
+																<input type="checkbox" title="헌법연구관 자유권">
+																<a href="#none">헌법연구관 사회권부</a>
+															</li>
+														</ul>
+													</li>
+												</ul>
+											</li>
+										</ul>
+									</li>
+									<li>
+										<input type="checkbox" title="부속실">
+										<a href="#none">부속실</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<input type="checkbox" title="헌법재판소 사무처">
+								<a href="#none">헌법재판소 사무처</a>
+								<ul class="last">
+									<li>
+										<input type="checkbox" title="선임헌법연구관 자유권">
+										<a href="#none">선임헌법연구관 사회권부</a>
+									</li>
+									<li>
+										<input type="checkbox" title="헌법연구관 자유권">
+										<a href="#none">헌법연구관 사회권부</a>
+									</li>
+								</ul>
+							</li>
+
+						</ul>
+					</aside>
+
+					<div class="aside-cont">
+						<div class="data-box-show">
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자 </strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="db-box">
+								<h3><a href="311_all_share_view.html">헌법과 민법</a></h3>
+								<ul>
+									<li>
+										<strong>연구자료 건수</strong>
+										<p>32건</p>
+									</li>
+									<li>
+										<strong>수집일</strong>
+										<p>2022-01-10 ~ 2022-08-03</p>
+									</li>
+									<li>
+										<strong>공유자</strong>
+										<p>전속1부 헌법연구관 김길동</p>
+									</li>
+									<li>
+										<strong>공유기간 </strong>
+										<p> 2022-08-03 09:00:00</p>
+									</li>
+									<li>
+										<strong>공유메모</strong>
+										<p> 헌법은 민법에 대하여, 민법은 헌법에 대하여 어떠한 의미를 가지는지……</p>
+									</li>
+								</ul>
+							</div>
+							<div class="show-more">더보기</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- footer -->
+			<div id="footer">
+				<div class="inner">
+					<span class="footerLogo"><img src="../images/img_footerLogo.png" alt="헌법재판소 로고"></span>
+					<ul class="footerLink">
+						<li class="txtBrown"><a href="#">개인정보 처리방침</a></li>
+						<li><a href="#">개인정보 보호</a></li>
+					</ul>
+					<div class="relatedSite">
+						<a href="#" class="siteOpen">관련사이트</a>
+						<ul>
+							<li><a href="https://ecourt.ccourt.go.kr/" target="_blank" title="새창열림">전자헌법재판센터</a></li>
+							<li><a href="http://library.ccourt.go.kr/" target="_blank" title="새창열림">헌법재판소도서관</a></li>
+							<li><a href="http://kids.ccourt.go.kr/" target="_blank" title="새창열림">어린이헌법재판소</a></li>
+							<li><a href="http://ri.ccourt.go.kr" target="_blank" title="새창열림">헌법재판연구원</a></li>
+							<li><a href="http://history.ccourt.go.kr/" target="_blank" title="새창열림">사이버역사관</a></li>
+							<li><a href="http://recruit.ccourt.go.kr/index.jsp" target="_blank" title="새창열림">헌법재판소
+									채용시스템</a>
+							</li>
+							<li><a href="http://law.ccourt.go.kr/" target="_blank" title="새창열림">헌법실무연구회</a></li>
+							<li><a href="http://www.aaccsrd.org/kr/main.do" target="_blank" title="새창열림">AACC 연구사무국</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="siteInfo">
+						<li>우편번호 03060 서울특별시 종로구 북촌로 15 (재동 83) </li>
+						<li>대표전화 02-708-3456</li>
+						<li>대표팩스 02-708-3566</li>
+						<li>webmaster@ccourt.go.kr</li>
+					</ul>
+					<p class="copyright">Copyright 2020 Constitutional court of Korea all rights reserved. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>

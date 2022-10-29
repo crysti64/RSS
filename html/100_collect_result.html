@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>헌법재판소 연구자료 지원서비스</title>
+	<link rel="stylesheet" href="../css/base.css">
+	<script src="../js/jquery-1.9.1.min.js"></script>
+	<script src="../js/uikit.min.js"></script>
+	<script src="../js/layout.js"></script>
+	<script src="../js/script.js"></script>
+</head>
+
+<body>
+	<div class="accessibilityTab">
+		<a href="#content">본문바로가기</a>
+		<a href="#menu">주메뉴 바로가기</a>
+	</div>
+	<div id="wrap">
+		<nav class="uk-navbar-container top-nav" uk-navbar>
+			<div class="uk-navbar-left">
+				<ul class="uk-navbar-nav">
+					<li> <a href="#none">종합법률정보</a> </li>
+					<li> <a href="#none">국가법령센터</a> </li>
+					<li> <a href="#none">의안정보시스템</a> </li>
+					<li>
+						<a href="#"><span class="btn more">더보기 +</span></a>
+						<div class="uk-navbar-dropdown"
+							uk-drop="boundary: !.uk-navbar; stretch: x; flip: false; mode:click">
+							<div class="uk-navbar-dropdown-grid uk-child-width-1-6" uk-grid>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li class="uk-active"><a href="#">종합법률정보</a></li>
+										<li><a href="#">종합법률정보</a></li>
+										<li><a href="#">종합법률정보</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">국가법령센터</a></li>
+										<li><a href="#">국가법령센터</a></li>
+										<li><a href="#">국가법령센터</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">의안정보시스템</a></li>
+										<li><a href="#">의안정보시스템</a></li>
+										<li><a href="#">의안정보시스템</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li class="uk-active"><a href="#">종합법률정보</a></li>
+										<li><a href="#">종합법률정보</a></li>
+										<li><a href="#">종합법률정보</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">국가법령센터</a></li>
+										<li><a href="#">국가법령센터</a></li>
+										<li><a href="#">국가법령센터</a></li>
+									</ul>
+								</div>
+								<div>
+									<ul class="uk-nav uk-navbar-dropdown-nav">
+										<li><a href="#">의안정보시스템</a></li>
+										<li><a href="#">의안정보시스템</a></li>
+										<li><a href="#">의안정보시스템</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<!-- header -->
+		<header class="header">
+			<h1 class="header-logo">
+				<a href="#" title="헌법재판소 연구자료 지원서비스 메인으로">
+					<img src="../images/logo.png" alt="헌법재판소 연구자료 지원서비스 ">
+				</a>
+			</h1>
+			<nav class="gnb-wrap">
+				<ul id="menu">
+					<li> <a href="001_data_search_list.html">자료수집설정</a> </li>
+					<li> <a href="100_collect_result.html" class="current">수집결과</a> </li>
+					<li> <a href="200_locker_list.html">보관함</a> </li>
+					<li> <a href="300_share_data.html">공유하기</a> </li>
+					<li class="last"> <a href="400_law_list.html" class="current"><span>법률개정사항</span></a> </li>
+				</ul>
+			</nav>
+			<div class="header-btn">
+				<p>
+					전속1부 헌법연구관
+					<b>홍길동</b>
+				</p>
+				<a href="#" class="logout" title="로그아웃">로그아웃</a>
+
+				<div class="sitemap-wrap">
+					<div class="sitemap-layout">
+						<ul class="gnb">
+							<li> <a href="001_data_search_list.html">자료수집설정</a> </li>
+							<li> <a href="100_collect_result.html" class="current">수집결과</a> </li>
+							<li> <a href="200_locker_list.html">보관함</a> </li>
+							<li> <a href="300_share_data.html">공유하기</a> </li>
+							<li> <a href="400_law_list.html">법률개정사항</a> </li>
+						</ul>
+					</div>
+				</div>
+				<a href="#" class="sitemap" title="사이트맵 열기">
+					<span>사이트맵 열기</span>
+				</a>
+			</div>
+		</header>
+
+		<!-- content -->
+		<div id="main">
+			<div class="path">
+				<nav class="path-nav">
+					<a href="#" class="navi_home">HOME</a> &gt; <a href="#">자료수집설정</a>
+					&gt; <a href="#" class="navi_ov">검색설정</a>
+				</nav>
+			</div>
+
+			<div id="container">
+				<h1 id="tit_cont">수집결과</h1>
+				<ul class="tab-ul type1 col2 mt50">
+					<li class="on"><a href="100_collect_result.html"><span>수집자료</span></a></li>
+					<li><a href="101_collect_trash.html"><span>휴지통</span></a></li>
+				</ul>
+
+				<div class="board-search">
+					<div class="board-search__info">
+						<p>
+							<span>전체 : </span>
+							<b>1859</b>
+							<span>건 </span>
+						</p>
+					</div>
+
+					<form class="board-search__write" method="get" action="">
+						<select name="" id="" class="normal" title="리스트갯수">
+							<option value="">10개씩</option>
+						</select>
+						<select name="searchCondition" class="select mr10" title="검색 구분">
+							<option value="">전체</option>
+							<option value="1">제목</option>
+							<option value="2">내용</option>
+						</select>
+						<input type="text" name="searchKeyword" placeholder="검색어를 입력해주세요." value="" title="검색어 입력">
+						<button type="submit" title="검색하기">검색하기</button>
+					</form>
+				</div>
+
+				<div id="lnb-cont">
+					<aside class="lnb">
+						<ul uk-accordion>
+							<li class="uk-open">
+								<input type="checkbox" name="" id="" title="검색키워드 전체선택">
+								<a class="uk-accordion-title" href="#none"> 검색 키워드 </a>
+								<div class="uk-accordion-content">
+									<ul class="lnb-list col1">
+										<li>
+											<input type="checkbox">
+											<label for="">키워드1&키워드2&키워드3&키워드4&키워드5</label>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">키워드1&키워드2&키워드3&</label>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">키워드1&키워드2&키워드3&키워드4&키워드5</label>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">키워드1&키워드2&키워드3&키워드4</label>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">키워&키워드4&키워드5</label>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<input type="checkbox" name="" id="" title="중요도 전체선택">
+								<a class="uk-accordion-title" href="#">중요도</a>
+								<div class="uk-accordion-content">
+									<ul class="lnb-list col2">
+										<li>
+											<input type="checkbox">
+											<label for="">미평가</label>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">상</label>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">중</label>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">하</label>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<input type="checkbox" name="" id="" title="검색대상 전체선택">
+								<a class="uk-accordion-title" href="#">검색 대상</a>
+								<div class="uk-accordion-content">
+									<ul class="lnb-list col1 more-srch">
+										<li>
+											<input type="checkbox">
+											<label for="">헌법재판소도서관 & 헌법재판정보 </label>
+											<div class="depth2">
+												<p class="title">
+													<input type="checkbox">
+													<label for="">상세 검색 대상</label>
+												</p>
+												<ol>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (단행본)</label>
+													</li>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (학술지논문)</label>
+													</li>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (학위논문)</label>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">유관기관</label>
+											<div class="depth2">
+												<p class="title">
+													<input type="checkbox">
+													<label for="">상세 검색 대상</label>
+												</p>
+												<ol>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (단행본)</label>
+													</li>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (학술지논문)</label>
+													</li>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (학위논문)</label>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">국내 Web DB</label>
+											<div class="depth2">
+												<p class="title">
+													<input type="checkbox">
+													<label for="">상세 검색 대상</label>
+												</p>
+												<ol>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (단행본)</label>
+													</li>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (학술지논문)</label>
+													</li>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (학위논문)</label>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">Westlaw (영미)</label>
+											<div class="depth2">
+												<p class="title">
+													<input type="checkbox">
+													<label>상세 검색 대상</label>
+												</p>
+												<ol>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (단행본)</label>
+													</li>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (학술지논문)</label>
+													</li>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (학위논문)</label>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">HeinOnline (영미)</label>
+											<div class="depth2">
+												<p class="title">
+													<input type="checkbox">
+													<label for="">상세 검색 대상</label>
+												</p>
+												<ol>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (단행본)</label>
+													</li>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (학술지논문)</label>
+													</li>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (학위논문)</label>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">Beck-Online (독일)</label>
+											<div class="depth2">
+												<p class="title">
+													<input type="checkbox">
+													<label for="">상세 검색 대상</label>
+												</p>
+												<ol>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (단행본)</label>
+													</li>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (학술지논문)</label>
+													</li>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (학위논문)</label>
+													</li>
+												</ol>
+											</div>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">국외 Web DB</label>
+											<div class="depth2">
+												<p class="title">
+													<input type="checkbox">
+													<label for="">상세 검색 대상</label>
+												</p>
+												<ol>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (단행본)</label>
+													</li>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (학술지논문)</label>
+													</li>
+													<li>
+														<input type="checkbox">
+														<label for="">헌법재판소도서관 (학위논문)</label>
+													</li>
+												</ol>
+											</div>
+										</li>
+									</ul>
+								</div>
+							</li>
+							<li>
+								<input type="checkbox" name="" id="" title="발행년도 전체선택">
+								<a class="uk-accordion-title" href="#">발행년도</a>
+								<div class="uk-accordion-content">
+									<ul class="lnb-list col2">
+										<li>
+											<input type="checkbox">
+											<label for="">2020</label>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">2014</label>
+										</li>
+										<li>
+											<input type="checkbox">
+											<label for="">2012</label>
+										</li>
+									</ul>
+								</div>
+							</li>
+						</ul>
+					</aside>
+
+					<div class="aside-cont">
+						<div class="bttns">
+							<span class="check-box">
+								<input type="checkbox" title="전체선택">
+							</span>
+							<div class="pri-setting">
+								<strong>중요도 설정</strong>
+								<button class="btn small2 state-box blue" uk-toggle="target: #modal-pri-setting">중요도
+									상</button>
+								<button class="btn small2 state-box yellow">중요도 중</button>
+								<button class="btn small2 state-box green">중요도 하</button>
+								<div class="tooltip">
+									<span class="question2 bg_color6">도움말</span>
+									<p class="tooltiptext">
+										<strong>중요도 도움말</strong>
+										<b>[중요도]</b>
+										<span>수집된 데이터를 개인의 판단에 따라 상,중,하로 분류</span>
+										<b>[중요도 설정 방법]</b>
+										<span>수집된 데이터의 체크박스를 선택 한 후에 상단에 중요도를 클릭 하면 일괄로 중요도가 반영 됨.</span>
+									</p>
+								</div>
+							</div>
+							<p class="btn-wrap">
+								<button class="btn small ico down bg_color1" uk-toggle="target: #modal-ris-save">RIS파일
+									저장</button>
+								<button class="btn small ico put bg_color2" uk-toggle="target: #modal-add-locker">보관함
+									담기</button>
+								<button class="btn small ico trash bg_color3">휴지통</button>
+							</p>
+						</div>
+						<ul class="respon-list">
+							<li>
+								<span class="check-box"> <input type="checkbox" title="선택"> </span>
+								<span class="num">1</span>
+								<div class="cont">
+									<p class="info">
+										<span>[KISS] 검색조건 키워드6&키워드7&키워드8<i class="new ml10"><img
+													src="../images/btn_new.png" alt=""></i></span>
+										<span class="date">수집일 : 2022-07-20</span>
+									</p>
+									<strong>
+										<span class="state-box blue">중요도 상</span>
+										고등학교 2009 개정 "사회" 교과서의 고령화 관련 단원 내용 분석: 고령화 교육 적합성을 중심으로
+									</strong>
+
+									<p class="author">
+										<b>Author 김원식 Publication 한국재정학회</b>
+										<span>Journal 교육학논총 Date 2012 Volume 33 Issue 1 Pages 103-128(26pages)</span>
+									</p>
+
+									<p class="memo-wrap">
+										<input type="text" class="input2">
+										<button class="btn small2 bg_color7">수정</button>
+										<button class="btn small2 outline">삭제</button>
+									</p>
+								</div>
+								<div class="locker">
+									<p class="inner">
+										<strong>보관함</strong>
+										<span uk-tooltip="title: 보관함1; pos: left">1-1</span>
+										<span uk-tooltip="title: 보관함2; pos: left">1-2</span>
+									</p>
+								</div>
+								<p class="butts">
+									<button class="btn icobt link">원문바로가기</button>
+									<button class="btn icobt memo">메모하기</button>
+								</p>
+							</li>
+							<li>
+								<span class="check-box"> <input type="checkbox" title="선택"> </span>
+								<span class="num">2</span>
+								<div class="cont">
+									<p class="info">
+										<span>[스콜라] 검색조건 키워드6&키워드7&키워드8</span>
+										<span class="date">수집일 : 2022-07-20</span>
+									</p>
+									<strong>
+										<span class="state-box yellow">중요도 중</span>
+										북유럽 복지재정을 통한 한국의 성장형 복지시스템:스웨덴, 노르웨이, 덴마크를 중심으로
+									</strong>
+
+									<p class="author">
+										<b>Author 김원식 Publication 한국재정학회</b>
+										<span>Date 2014 Journal 한국재정학회 학술대회 논문집 Pages 1-23 Info 2014년도 춘계학술대회 논문집 Type
+											학술대회자료</span>
+									</p>
+								</div>
+								<div class="locker">
+									<p class="inner">
+										<strong>보관함</strong>
+										<span uk-tooltip="title: 보관함1; pos: left">1-1</span>
+										<span uk-tooltip="title: 보관함2; pos: left">1-2</span>
+									</p>
+								</div>
+								<p class="butts">
+									<button class="btn icobt link">원문바로가기</button>
+									<button class="btn icobt memo">메모하기</button>
+								</p>
+							</li>
+							<li>
+								<span class="check-box"> <input type="checkbox" title="선택"> </span>
+								<span class="num">2</span>
+								<div class="cont">
+									<p class="info">
+										<span>[스콜라] 검색조건 키워드6&키워드7&키워드8</span>
+										<span class="date">수집일 : 2022-07-20</span>
+									</p>
+									<strong>
+										<span class="state-box green">중요도 하</span>
+										북유럽 복지재정을 통한 한국의 성장형 복지시스템:스웨덴, 노르웨이, 덴마크를 중심으로
+									</strong>
+
+									<p class="author">
+										<b>Author 김원식 Publication 한국재정학회</b>
+										<span>Date 2014 Journal 한국재정학회 학술대회 논문집 Pages 1-23 Info 2014년도 춘계학술대회 논문집 Type
+											학술대회자료</span>
+									</p>
+								</div>
+								<div class="locker">
+									<p class="inner">
+										<strong>보관함</strong>
+										<span uk-tooltip="title: 보관함1; pos: left">1-1</span>
+										<span uk-tooltip="title: 보관함2; pos: left">1-2</span>
+									</p>
+								</div>
+								<p class="butts">
+									<button class="btn icobt link">원문바로가기</button>
+									<button class="btn icobt memo">메모하기</button>
+								</p>
+							</li>
+							<li>
+								<span class="check-box"> <input type="checkbox" title="선택"> </span>
+								<span class="num">2</span>
+								<div class="cont">
+									<p class="info">
+										<span>[스콜라] 검색조건 키워드6&키워드7&키워드8</span>
+										<span class="date">수집일 : 2022-07-20</span>
+									</p>
+									<strong>북유럽 복지재정을 통한 한국의 성장형 복지시스템:스웨덴, 노르웨이, 덴마크를 중심으로</strong>
+
+									<p class="author">
+										<b>Author 김원식 Publication 한국재정학회</b>
+										<span>Date 2014 Journal 한국재정학회 학술대회 논문집 Pages 1-23 Info 2014년도 춘계학술대회 논문집 Type
+											학술대회자료</span>
+									</p>
+								</div>
+								<div class="locker">
+									<p class="inner">
+										<strong>보관함</strong>
+										<span uk-tooltip="title: 보관함1; pos: left">1-1</span>
+										<span uk-tooltip="title: 보관함2; pos: left">1-2</span>
+									</p>
+								</div>
+								<p class="butts">
+									<button class="btn icobt link">원문바로가기</button>
+									<button class="btn icobt memo">메모하기</button>
+								</p>
+							</li>
+							<li>
+								<span class="check-box"> <input type="checkbox" title="선택"> </span>
+								<span class="num">2</span>
+								<div class="cont">
+									<p class="info">
+										<span>[스콜라] 검색조건 키워드6&키워드7&키워드8</span>
+										<span class="date">수집일 : 2022-07-20</span>
+									</p>
+									<strong>북유럽 복지재정을 통한 한국의 성장형 복지시스템:스웨덴, 노르웨이, 덴마크를 중심으로</strong>
+
+									<p class="author">
+										<b>Author 김원식 Publication 한국재정학회</b>
+										<span>Date 2014 Journal 한국재정학회 학술대회 논문집 Pages 1-23 Info 2014년도 춘계학술대회 논문집 Type
+											학술대회자료</span>
+									</p>
+								</div>
+								<div class="locker">
+									<p class="inner">
+										<strong>보관함</strong>
+										<span uk-tooltip="title: 보관함1; pos: left">1-1</span>
+										<span uk-tooltip="title: 보관함2; pos: left">1-2</span>
+									</p>
+								</div>
+								<p class="butts">
+									<button class="btn icobt link">원문바로가기</button>
+									<button class="btn icobt memo">메모하기</button>
+								</p>
+							</li>
+							<li>
+								<span class="check-box"> <input type="checkbox" title="선택"> </span>
+								<span class="num">2</span>
+								<div class="cont">
+									<p class="info">
+										<span>[스콜라] 검색조건 키워드6&키워드7&키워드8</span>
+										<span class="date">수집일 : 2022-07-20</span>
+									</p>
+									<strong>북유럽 복지재정을 통한 한국의 성장형 복지시스템:스웨덴, 노르웨이, 덴마크를 중심으로</strong>
+
+									<p class="author">
+										<b>Author 김원식 Publication 한국재정학회</b>
+										<span>Date 2014 Journal 한국재정학회 학술대회 논문집 Pages 1-23 Info 2014년도 춘계학술대회 논문집 Type
+											학술대회자료</span>
+									</p>
+								</div>
+								<div class="locker">
+									<p class="inner">
+										<strong>보관함</strong>
+										<span uk-tooltip="title: 보관함1; pos: left">1-1</span>
+										<span uk-tooltip="title: 보관함2; pos: left">1-2</span>
+									</p>
+								</div>
+								<p class="butts">
+									<button class="btn icobt link">원문바로가기</button>
+									<button class="btn icobt memo">메모하기</button>
+								</p>
+							</li>
+							<li>
+								<span class="check-box"> <input type="checkbox" title="선택"> </span>
+								<span class="num">2</span>
+								<div class="cont">
+									<p class="info">
+										<span>[스콜라] 검색조건 키워드6&키워드7&키워드8</span>
+										<span class="date">수집일 : 2022-07-20</span>
+									</p>
+									<strong>북유럽 복지재정을 통한 한국의 성장형 복지시스템:스웨덴, 노르웨이, 덴마크를 중심으로</strong>
+
+									<p class="author">
+										<b>Author 김원식 Publication 한국재정학회</b>
+										<span>Date 2014 Journal 한국재정학회 학술대회 논문집 Pages 1-23 Info 2014년도 춘계학술대회 논문집 Type
+											학술대회자료</span>
+									</p>
+								</div>
+								<div class="locker">
+									<p class="inner">
+										<strong>보관함</strong>
+										<span uk-tooltip="title: 보관함1; pos: left">1-1</span>
+										<span uk-tooltip="title: 보관함2; pos: left">1-2</span>
+									</p>
+								</div>
+								<p class="butts">
+									<button class="btn icobt link">원문바로가기</button>
+									<button class="btn icobt memo">메모하기</button>
+								</p>
+							</li>
+							<li>
+								<span class="check-box"> <input type="checkbox" title="선택"> </span>
+								<span class="num">3</span>
+								<div class="cont">
+									<p class="info">
+										<span>[로앤비] 검색조건 키워드6&키워드7&키워드8</span>
+										<span class="date">수집일 : 2022-07-20</span>
+									</p>
+									<strong>유배우자 노인의 삶의 만족에 관한 연구: 사회계층의식의 매개효과를 중심으로</strong>
+
+									<p class="author">
+										<b>Source 한수정 ( Sujeong Han ) / (사)아시아문화학술원</b>
+										<span>EnTitle A Study on Life Satisfaction of the Elderly Who Has a Spouse:
+											Focusing on the Mediating Effect of Social Class Consciousness
+											<br> 인문사회 21 / 2020.12 / 14Page</span>
+									</p>
+								</div>
+								<div class="locker">
+									<p class="inner">
+										<strong>보관함</strong>
+										<span uk-tooltip="title: 보관함1; pos: left">1-1</span>
+										<span uk-tooltip="title: 보관함2; pos: left">1-2</span>
+									</p>
+								</div>
+								<p class="butts">
+									<button class="btn icobt link">원문바로가기</button>
+									<button class="btn icobt memo">메모하기</button>
+								</p>
+							</li>
+						</ul>
+						<!-- pager -->
+						<div class="pager">
+							<a class="arr prev2" href="#">처음으로</a>
+							<a class="arr prev" href="#">이전</a>
+							<strong class="active">1</strong>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="#">4</a>
+							<a href="#">5</a>
+							<a class="arr next" href="#">다음</a>
+							<a class="arr next2" href="#">맨끝으로</a>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- footer -->
+			<div id="footer">
+				<div class="inner">
+					<span class="footerLogo"><img src="../images/img_footerLogo.png" alt="헌법재판소 로고"></span>
+					<ul class="footerLink">
+						<li class="txtBrown"><a href="#">개인정보 처리방침</a></li>
+						<li><a href="#">개인정보 보호</a></li>
+					</ul>
+					<div class="relatedSite">
+						<a href="#" class="siteOpen">관련사이트</a>
+						<ul>
+							<li><a href="https://ecourt.ccourt.go.kr/" target="_blank" title="새창열림">전자헌법재판센터</a></li>
+							<li><a href="http://library.ccourt.go.kr/" target="_blank" title="새창열림">헌법재판소도서관</a></li>
+							<li><a href="http://kids.ccourt.go.kr/" target="_blank" title="새창열림">어린이헌법재판소</a></li>
+							<li><a href="http://ri.ccourt.go.kr" target="_blank" title="새창열림">헌법재판연구원</a></li>
+							<li><a href="http://history.ccourt.go.kr/" target="_blank" title="새창열림">사이버역사관</a></li>
+							<li><a href="http://recruit.ccourt.go.kr/index.jsp" target="_blank" title="새창열림">헌법재판소
+									채용시스템</a>
+							</li>
+							<li><a href="http://law.ccourt.go.kr/" target="_blank" title="새창열림">헌법실무연구회</a></li>
+							<li><a href="http://www.aaccsrd.org/kr/main.do" target="_blank" title="새창열림">AACC 연구사무국</a>
+							</li>
+						</ul>
+					</div>
+					<ul class="siteInfo">
+						<li>우편번호 03060 서울특별시 종로구 북촌로 15 (재동 83) </li>
+						<li>대표전화 02-708-3456</li>
+						<li>대표팩스 02-708-3566</li>
+						<li>webmaster@ccourt.go.kr</li>
+					</ul>
+					<p class="copyright">Copyright 2020 Constitutional court of Korea all rights reserved. </p>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
+
+<!-- 중요도설정 -->
+<div id="modal-pri-setting" uk-modal class="modal-d small">
+	<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+		<button class="uk-modal-close-default" type="button" uk-close></button>
+		<div class="modal-p">
+			<!-- title -->
+			<div class="modal-title">
+				<h3>중요도 평가</h3>
+			</div>
+			<div class="modal-end-p">
+				<span>선택 한 연구자료를 중요도 중으로 평가하시겠습니까?</span>
+			</div>
+		</div>
+		<p class="uk-text-center mt20">
+			<button class="btn small2 bg_color1" type="button">확인</button>
+			<button class="btn small2 outline line_color1 uk-modal-close" type="button">취소</button>
+	</div>
+</div>
+<!-- RIS파일저장 -->
+<div id="modal-ris-save" uk-modal class="modal-d small">
+	<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+		<button class="uk-modal-close-default" type="button" uk-close></button>
+		<div class="modal-p">
+			<!-- title -->
+			<div class="modal-title">
+				<h3>결과 저장 </h3>
+			</div>
+			<div class="modal-end-p">
+				<span>선택한 연구자료를 RIS파일로 저장 하시겠습니까?</span>
+			</div>
+		</div>
+		<p class="uk-text-center mt20">
+			<button class="btn small2 bg_color1" type="button">확인</button>
+			<button class="btn small2 outline line_color1 uk-modal-close" type="button">취소</button>
+	</div>
+</div>
+
+<!-- 보관함 담기 -->
+<div id="modal-add-locker" uk-modal class="modal-d small2">
+	<div class="uk-modal-dialog uk-modal-body uk-margin-auto-vertical">
+		<button class="uk-modal-close-default" type="button" uk-close></button>
+		<div class="modal-p">
+			<!-- title -->
+			<div class="modal-title">
+				<h3>보관함 담기 </h3>
+			</div>
+
+			<!-- add locker -->
+			<div class="modal-add-locker">
+				<div class="inner">
+					<div class="cate">
+						<div class="menu">
+							<p class="d-flex ml10">
+								<input type="checkbox">
+								<a href="#" class="menulink subopen">1. 제목1</a>
+							</p>
+							<a href="javascript:void(0);" class="make-locker">열기</a>
+						</div>
+						<ul>
+							<li>
+								<input type="checkbox">
+								<label for="">1-1. 제목2</label>
+							</li>
+							<li>
+								<input type="checkbox">
+								<label for="">1-2. 제목3</label>
+							</li>
+						</ul>
+					</div>
+					<div class="cate">
+						<div class="menu">
+							<p class="d-flex ml10">
+								<input type="checkbox">
+								<a href="#" class="menulink subopen">1. 제목1</a>
+							</p>
+							<a href="javascript:void(0);" class="make-locker">열기</a>
+						</div>
+						<ul>
+							<li>
+								<input type="checkbox">
+								<label for="">1-1. 제목2</label>
+							</li>
+							<li>
+								<input type="checkbox">
+								<label for="">1-2. 제목3</label>
+							</li>
+						</ul>
+					</div>
+					<div class="cate">
+						<div class="menu">
+							<p class="d-flex ml10">
+								<input type="checkbox">
+								<a href="#" class="menulink subopen">1. 제목1</a>
+							</p>
+							<a href="javascript:void(0);" class="make-locker">열기</a>
+						</div>
+						<ul>
+							<li>
+								<input type="checkbox">
+								<label for="">1-1. 제목2</label>
+							</li>
+							<li>
+								<input type="checkbox">
+								<label for="">1-2. 제목3</label>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<p class="d-flex center p-add-locker">
+					<button class="btn-add-locker">추가</button>
+				</p>
+			</div>
+		</div>
+		<p class="uk-text-center mt20">
+			<button class="btn small2 bg_color1" type="button">담기</button>
+			<button class="btn small2 outline line_color1 uk-modal-close" type="button">취소</button>
+	</div>
+</div>
